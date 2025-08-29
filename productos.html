@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productos | FFT México</title>
+  <meta name="description" content="Catálogo de productos FFT y marcas distribuidas con soporte en México.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar (idéntica al index para consistencia) -->
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/img/logo-fft-mx.svg" alt="FFT México">
+        <span class="fw-semibold text-fft">FFT México</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" id="offcanvasNav">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menú</h5>
+          <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-fft" href="contacto.html">Solicitar cotización</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="bg-light py-4">
+    <div class="container">
+      <h1 class="h3 mb-1">Productos</h1>
+      <p class="text-muted mb-0">Incluye productos FFT y marcas distribuidas que soportamos en México.</p>
+    </div>
+  </header>
+
+  <main class="container my-4">
+    <!-- Controles -->
+    <div class="row gy-3 align-items-end">
+      <div class="col-md-4">
+        <label class="form-label">Buscar</label>
+        <input type="search" class="form-control" id="searchInput" placeholder="Robótica, PLC, soldadura...">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Categoría</label>
+        <select class="form-select" id="categoryFilter">
+          <option value="">Todas</option>
+          <option>Automatización</option>
+          <option>Robótica</option>
+          <option>Control</option>
+          <option>Software</option>
+          <option>Soporte 3rd-party</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Marca</label>
+        <select class="form-select" id="brandFilter">
+          <option value="">Todas</option>
+          <option>FFT</option>
+          <option>ABB</option>
+          <option>KUKA</option>
+          <option>Fanuc</option>
+          <option>Bosch</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Grid de productos -->
+    <div class="row g-4 mt-2" id="productsGrid">
+      <!-- Tarjetas generadas por JS en el siguiente bloque -->
+    </div>
+  </main>
+
+  <footer class="footer mt-auto">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <h6 class="mb-2">FFT México</h6>
+          <small>© <span id="year"></span> FFT. Todos los derechos reservados.</small>
+        </div>
+        <div class="col-md-3">
+          <h6 class="mb-2">Navegación</h6>
+          <ul class="list-unstyled">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="about.html">Acerca</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="mb-2">Contacto</h6>
+          <ul class="list-unstyled">
+            <li>Email: contacto@fft.mx</li>
+            <li>Tel: +52 (XX) XXXX XXXX</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap + JS común -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- Datos temporales inline (luego se moverán a assets/js/data.json) -->
+  <script>
+    const productos = [
+      {
+        id: "fft-cell-soldadura",
+        nombre: "Célula Robotizada de Soldadura por Puntos",
+        categoria: "Automatización",
+        descripcion: "Estación llave en mano con integración de robots y control de calidad.",
+        imagen: "assets/img/placeholders/robot-weld.jpg",
+        marca: "FFT",
+        soporte: true
+      },
+      {
+        id: "bosch-plc",
+        nombre: "PLC Bosch Rexroth",
+        categoria: "Control",
+        descripcion: "Controlador lógico programable para líneas de producción.",
+        imagen: "assets/img/placeholders/plc.jpg",
+        marca: "Bosch",
+        soporte: true
+      },
+      {
+        id: "kuka-robot",
+        nombre: "Robot Industrial KUKA KR Series",
+        categoria: "Robótica",
+        descripcion: "Robots de 6 ejes para manipulación y soldadura.",
+        imagen: "assets/img/placeholders/kuka.jpg",
+        marca: "KUKA",
+        soporte: true
+      }
+    ];
+
+    const grid = document.getElementById('productsGrid');
+    const searchInput = document.getElementById('searchInput');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const brandFilter = document.getElementById('brandFilter');
+
+    function badgeMarca(marca) {
+      return marca === 'FFT'
+        ? '<span class="badge badge-fft">FFT</span>'
+        : '<span class="badge badge-externa">Marca distribuida</span>';
+    }
+
+    function render(products) {
+      grid.innerHTML = products.map(p => `
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 card-product">
+            <div class="ratio ratio-16x9 bg-light rounded-top">
+              ${p.imagen ? `<img src="${p.imagen}" alt="${p.nombre}" class="w-100 h-100 object-fit-cover">` : ''}
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title mb-0">${p.nombre}</h5>
+                ${badgeMarca(p.marca)}
+              </div>
+              <p class="card-text text-muted">${p.descripcion}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge text-bg-light">${p.categoria}</span>
+                <a href="producto-detalle.html?id=${encodeURIComponent(p.id)}" class="btn btn-sm btn-outline-primary">Ver detalle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function applyFilters() {
+      const q = (searchInput.value || '').toLowerCase();
+      const cat = categoryFilter.value;
+      const brand = brandFilter.value;
+
+      const filtered = productos.filter(p => {
+        const matchesText =
+          p.nombre.toLowerCase().includes(q) ||
+          p.descripcion.toLowerCase().includes(q) ||
+          p.categoria.toLowerCase().includes(q) ||
+          p.marca.toLowerCase().includes(q);
+        const matchesCat = !cat || p.categoria === cat;
+        const matchesBrand = !brand || p.marca === brand;
+        return matchesText && matchesCat && matchesBrand;
+      });
+
+      render(filtered);
+    }
+
+    [searchInput, categoryFilter, brandFilter].forEach(el => {
+      el.addEventListener('input', applyFilters);
+      el.addEventListener('change', applyFilters);
+    });
+
+    // Inicial
+    render(productos);
+  </script>
+</body>
+</html>
