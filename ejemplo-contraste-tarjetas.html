@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Contraste en Tarjetas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <style>
+        .demo-section {
+            margin: 2rem 0;
+            padding: 2rem;
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+        }
+        .demo-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: var(--fft-green);
+        }
+        .contrast-info {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin: 1rem 0;
+            border-left: 4px solid var(--fft-green);
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4">Ejemplos de Contraste en Tarjetas</h1>
+        
+        <!-- Fondo Gris Claro (Original) -->
+        <div class="demo-section" style="background-color: var(--fft-gray-light);">
+            <div class="demo-title">Fondo Gris Claro (Original)</div>
+            <div class="contrast-info">
+                <strong>Contraste:</strong> Bueno - Las tarjetas se destacan bien sobre el fondo gris claro.
+            </div>
+            <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <a class="menu-card" href="#" aria-label="Hemming"
+                       style="--bg: url('https://images.unsplash.com/photo-1542315192-1f61a1920151?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Hemming</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="menu-card" href="#" aria-label="Welding"
+                       style="--bg: url('https://images.unsplash.com/photo-1603503367361-0bc19f15a931?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Welding</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="menu-card" href="#" aria-label="Laser"
+                       style="--bg: url('https://images.unsplash.com/photo-1614064641938-3bcee7bfa78b?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Laser</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fondo Blanco con Overlay Mejorado -->
+        <div class="demo-section bg-white">
+            <div class="demo-title">Fondo Blanco con Overlay Mejorado</div>
+            <div class="contrast-info">
+                <strong>Contraste:</strong> Mejorado - Overlay más oscuro y sombras más pronunciadas para mejor legibilidad.
+            </div>
+            <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <a class="menu-card" href="#" aria-label="Hemming"
+                       style="--bg: url('https://images.unsplash.com/photo-1542315192-1f61a1920151?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Hemming</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="menu-card" href="#" aria-label="Welding"
+                       style="--bg: url('https://images.unsplash.com/photo-1603503367361-0bc19f15a931?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Welding</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="menu-card" href="#" aria-label="Laser"
+                       style="--bg: url('https://images.unsplash.com/photo-1614064641938-3bcee7bfa78b?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Laser</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fondo Blanco con Etiquetas Claras -->
+        <div class="demo-section bg-white">
+            <div class="demo-title">Fondo Blanco con Etiquetas Claras</div>
+            <div class="contrast-info">
+                <strong>Contraste:</strong> Alternativo - Etiquetas con fondo blanco y texto verde para máximo contraste.
+            </div>
+            <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <a class="menu-card menu-card-light" href="#" aria-label="Hemming"
+                       style="--bg: url('https://images.unsplash.com/photo-1542315192-1f61a1920151?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Hemming</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="menu-card menu-card-light" href="#" aria-label="Welding"
+                       style="--bg: url('https://images.unsplash.com/photo-1603503367361-0bc19f15a931?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Welding</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="menu-card menu-card-light" href="#" aria-label="Laser"
+                       style="--bg: url('https://images.unsplash.com/photo-1614064641938-3bcee7bfa78b?q=80&w=1200&auto=format&fit=crop');">
+                        <span class="menu-label">Laser</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botones de Control -->
+        <div class="demo-section">
+            <div class="demo-title">Controles de Demostración</div>
+            <div class="d-flex gap-2 flex-wrap">
+                <button class="btn btn-outline-primary" onclick="cambiarFondo('gris')">
+                    Fondo Gris Claro
+                </button>
+                <button class="btn btn-outline-primary" onclick="cambiarFondo('blanco')">
+                    Fondo Blanco
+                </button>
+                <button class="btn btn-outline-success" onclick="alternarEtiquetas()">
+                    Alternar Etiquetas
+                </button>
+            </div>
+        </div>
+
+        <!-- Información Técnica -->
+        <div class="demo-section">
+            <div class="demo-title">Información Técnica</div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Problemas Identificados:</h5>
+                    <ul>
+                        <li>Overlay muy claro en fondo blanco</li>
+                        <li>Falta de contraste en el texto</li>
+                        <li>Sombras insuficientes</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Soluciones Implementadas:</h5>
+                    <ul>
+                        <li>Overlay más oscuro para fondos blancos</li>
+                        <li>Text-shadow para mejor legibilidad</li>
+                        <li>Sombras más pronunciadas</li>
+                        <li>Etiquetas alternativas con fondo blanco</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function cambiarFondo(tipo) {
+            const body = document.body;
+            const secciones = document.querySelectorAll('.demo-section');
+            
+            if (tipo === 'gris') {
+                body.classList.remove('bg-white');
+                body.style.backgroundColor = 'var(--fft-gray-light)';
+                secciones.forEach(section => {
+                    section.classList.remove('bg-white');
+                    section.style.backgroundColor = 'var(--fft-gray-light)';
+                });
+            } else if (tipo === 'blanco') {
+                body.classList.add('bg-white');
+                body.style.backgroundColor = '#ffffff';
+                secciones.forEach(section => {
+                    section.classList.add('bg-white');
+                    section.style.backgroundColor = '#ffffff';
+                });
+            }
+        }
+
+        function alternarEtiquetas() {
+            const tarjetas = document.querySelectorAll('.menu-card');
+            tarjetas.forEach(tarjeta => {
+                tarjeta.classList.toggle('menu-card-light');
+            });
+        }
+
+        // Aplicar estilos de teclado
+        document.querySelectorAll('.menu-card').forEach(card => {
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    card.click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

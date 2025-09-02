@@ -5,7 +5,7 @@
   --fft-gray-mid: #D0D0D0;
   --fft-white: #FFFFFF;
   --fft-black: #000000;
-  --tile-height: 210px;
+  --tile-height: 210px; /* Cambiar el tamaño de los tiles */
 
   /* Accents (usarlos sólo en visualizaciones, no branding principal) */
   --fft-accent-1: #37AFBF;
@@ -16,7 +16,7 @@
 
 body {
   /* font-family: Arial, Helvetica, sans-serif; */
-  color: var(--fft-gray);
+  /* color: var(--fft-gray); */
   background-color: var(--fft-gray-light);
 }
 
@@ -48,13 +48,18 @@ h1, h2, h3, .section-title {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
+
+
+
+
+/* -------------------- TARJETAS DE LOS MENUS ------------------------------------------ */
 /* Menu tiles */
 .menu-card{
   display:block;
   position:relative;
   height:var(--tile-height);
   width:100%;
-  background: #e9ecef;
+  background: #ffffff;
   background-image: var(--bg);
   background-size: cover;
   background-position: center;
@@ -69,11 +74,12 @@ h1, h2, h3, .section-title {
 }
 
 .menu-card::before{
+  /* display: none; */
   content:"";
   position:absolute; inset:0;
-  background: radial-gradient(120% 100% at 50% 100%, rgba(0,0,0,.28) 0%, rgba(0,0,0,.05) 60%, rgba(0,0,0,0) 100%);
-  transition: opacity .25s ease;
-  opacity:.55;
+  background: #fff;
+  transition: opacity .1s ease;
+  opacity: 0.1;
 }
 
 .menu-card .menu-label{
@@ -105,5 +111,5 @@ h1, h2, h3, .section-title {
     box-shadow: 0 10px 26px rgba(0,0,0,.18);
     filter: saturate(1.07);
   }
-  .menu-card:hover::before{ opacity:.35; }
+  .menu-card:hover::before{ opacity:0; }
 }
