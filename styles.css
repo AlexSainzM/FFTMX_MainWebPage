@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3, .section-title {
   font-family: 'Oswald', Arial, sans-serif;
-  color: var(--fft-green);
+  /* color: var(--fft-green); */
 }
 
 .navbar-brand span {
