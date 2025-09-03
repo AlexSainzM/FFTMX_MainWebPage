@@ -68,9 +68,20 @@ h1, h2, h3, .section-title {
   text-decoration:none;
   /* angled silhouette similar to reference */
   -webkit-clip-path: polygon(10% 0,100% 0,100% 88%,92% 100%,0 100%,0 12%);
-  clip-path: polygon(10% 0,100% 0,100% 88%,92% 100%,0 100%,0 12%);
+  clip-path: polygon(10.8% 0,100% 0,100% 75%,90.2% 100%,0 100%,0 25%);
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
   transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+}
+
+.btn-angled-primary-green {
+  /* Corte a 45 grados y padding ajustado */
+  -webkit-clip-path: polygon(10% 0,100% 0,100% 88%,92% 100%,0 100%,0 12%);
+  clip-path: polygon(9.5% 5%,100% 5%,100% 0%,90.5% 95%,0 95%,0 100%);
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  padding: 0.75rem 1.5rem;
+  background-color: var(--fft-green);
+  color: #fff;
+  border: none;
 }
 
 .menu-card::before{
