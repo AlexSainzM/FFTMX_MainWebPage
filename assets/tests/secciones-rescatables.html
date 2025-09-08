@@ -1,0 +1,87 @@
+<!-- Sección eventos -->
+<section class="evento-destacado my-5 py-5 px-3 rounded-4" style="position: relative; overflow: hidden; color: #fff;">
+    <!-- Video de fondo -->
+    <video autoplay muted loop playsinline
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 1; pointer-events: none;">
+      <source src="./assets/index/bg_movement_web.mp4" type="video/mp4">
+      Tu navegador no soporta el video de fondo.
+    </video>
+    <!-- Capa de superposición para mejorar contraste -->
+    <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0, 0, 0, 0.5); z-index:1;"></div>
+    <div class="container position-relative" style="z-index:2;">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <p class="mb-2 text-uppercase" style="letter-spacing:1px; font-size:0.95rem; color:#b3aaff;">
+            10 de septiembre, 2025 a las 9:00 AM
+          </p>
+          <h2 class="display-5 fw-bold mb-3" style="font-family: 'Orbitron', monospace, sans-serif;">
+            Summit de Conectividad y Redes en la Nube FFT
+          </h2>
+          <p class="mb-4" style="font-size:1.15rem;">
+            ¡No te pierdas este evento exclusivo! Haz clic en "Registrarme" para apartar tu lugar y recibir el enlace de acceso.
+          </p>
+          <div id="contador-evento" class="d-flex gap-4 mb-4" style="font-family: 'Orbitron', monospace, sans-serif; font-size:1.5rem;">
+            <div class="text-center">
+              <span id="dias">00</span><br><span style="font-size:0.8rem;">DÍAS</span>
+            </div>
+            <div class="text-center">
+              <span id="horas">00</span><br><span style="font-size:0.8rem;">HORAS</span>
+            </div>
+            <div class="text-center">
+              <span id="minutos">00</span><br><span style="font-size:0.8rem;">MINUTOS</span>
+            </div>
+            <div class="text-center">
+              <span id="segundos">00</span><br><span style="font-size:0.8rem;">SEGUNDOS</span>
+            </div>
+          </div>
+          <a href="https://forms.gle/registro-fft-evento" target="_blank" rel="noopener noreferrer" class="btn btn-pink px-4 py-2 fw-bold" style="background:#ff2e8a; color:#fff; border-radius:2rem; font-size:1.1rem;">
+            Registrarme
+          </a>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <!-- Gráficos decorativos estilo wireframe/cubo -->
+          <div style="position: absolute; right: 0; top: 0; width: 100%; height: 100%; pointer-events: none; z-index:1;">
+            <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.18;">
+              <rect x="220" y="40" width="120" height="120" stroke="#fff" stroke-width="1.5"/>
+              <rect x="240" y="60" width="80" height="80" stroke="#fff" stroke-width="1"/>
+              <rect x="260" y="80" width="40" height="40" stroke="#fff" stroke-width="0.8"/>
+              <circle cx="100" cy="200" r="40" stroke="#fff" stroke-width="1.2"/>
+              <rect x="60" y="60" width="60" height="60" stroke="#fff" stroke-width="1"/>
+              <path d="M320 200 Q340 220 360 200" stroke="#fff" stroke-width="1" fill="none"/>
+              <path d="M60 260 Q100 220 140 260" stroke="#fff" stroke-width="1" fill="none"/>
+              <rect x="300" y="220" width="40" height="40" stroke="#fff" stroke-width="0.7"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Fecha objetivo: Jueves 10 de septiembre de 2025 a las 9:00 AM hora local
+      const fechaEvento = new Date("2025-09-10T09:00:00");
+      function actualizarContador() {
+        const ahora = new Date();
+        const diferencia = fechaEvento - ahora;
+
+        if (diferencia <= 0) {
+          document.getElementById("dias").textContent = "00";
+          document.getElementById("horas").textContent = "00";
+          document.getElementById("minutos").textContent = "00";
+          document.getElementById("segundos").textContent = "00";
+          return;
+        }
+
+        const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+        const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+        const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+        document.getElementById("dias").textContent = dias.toString().padStart(2, "0");
+        document.getElementById("horas").textContent = horas.toString().padStart(2, "0");
+        document.getElementById("minutos").textContent = minutos.toString().padStart(2, "0");
+        document.getElementById("segundos").textContent = segundos.toString().padStart(2, "0");
+      }
+
+      setInterval(actualizarContador, 1000);
+      actualizarContador();
+    </script>
+  </section>
