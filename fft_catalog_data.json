@@ -1,0 +1,661 @@
+{
+  "company_info": {
+    "name": "FFT Produktionssysteme GmbH & Co. KG",
+    "full_name": "Flexible Fertigungstechnik",
+    "founded": 1974,
+    "founder": "Gerhard Faust",
+    "original_name": "Faust Fertigungstechnik",
+    "headquarters": {
+      "address": "Schleyerstraße 1, 36041 Fulda, Germany",
+      "phone": "+49 661 2926-0",
+      "fax": "+49 661 2926-100",
+      "email": "info@fft.de"
+    },
+    "claim": {
+      "english": "one step ahead in INTELLIGENT production systems",
+      "spanish": "un paso por delante en sistemas de producción INTELIGENTES",
+      "variations": [
+        "one step ahead in YOUR CAREER",
+        "one step ahead.",
+        "ONE STEP AHEAD."
+      ]
+    },
+    "description": {
+      "spanish": "Desde 1974, somos sinónimo de sistemas de fabricación innovadores y flexibles y de presencia mundial. Como especialista llave en mano, realizamos proyectos complejos para los sectores de la automoción y la aviación, entre otros, con un equipo global, una gran proximidad al cliente y una gran capacidad de respuesta a los cambios del mercado.",
+      "english": "Since 1974, we have been synonymous with innovative and flexible manufacturing systems and global presence. As a turnkey specialist, we carry out complex projects for the automotive and aviation sectors, among others, with a global team, great customer proximity and great responsiveness to market changes."
+    }
+  },
+  "brand_guidelines": {
+    "colors": {
+      "primary": {
+        "fft_green": {
+          "rgb": "R 0 / G 157 / B 128",
+          "cmyk": "C 91 / M 0 / Y 60 / K 0",
+          "hex": "#009D80",
+          "pantone": "3285 C",
+          "hks": "53 K",
+          "ral": "6016 Türkisgrün (annähernd)",
+          "description": "Kräftige und intensive Farbe, die in Richtung Türkis tendiert. Hoher Aufmerksamkeitsgrad."
+        },
+        "fft_gray": {
+          "rgb": "R 87 / G 87 / B 86",
+          "cmyk": "C 0 / M 0 / Y 0 / K 80",
+          "hex": "#575756",
+          "pantone": "425 C",
+          "hks": "92 K (annähernd)",
+          "ral": "7022 Umbragrau (annähernd)",
+          "description": "Dunkler Grauton mit dezenter Kühle. Neutrale Grundlage."
+        }
+      },
+      "secondary": {
+        "gray_tone_1": {
+          "rgb": "R 240 / G 240 / B 240",
+          "cmyk": "C 0 / M 0 / Y 0 / K 8",
+          "hex": "#F0F0F0",
+          "pantone": "cool grey 1",
+          "ral": "RAL 9016 Verkehrsweiß"
+        },
+        "gray_tone_2": {
+          "rgb": "R 208 / G 208 / B 208",
+          "cmyk": "C 0 / M 0 / Y 0 / K 25",
+          "hex": "#D0D0D0",
+          "pantone": "cool grey 4",
+          "ral": "RAL 9006 Weißaluminium"
+        }
+      },
+      "accent": {
+        "accent_1": {
+          "rgb": "R 55 / G 175 / B 191",
+          "cmyk": "C 70 / M 7 / Y 26 / K 0",
+          "hex": "#37AFBF"
+        },
+        "accent_2": {
+          "rgb": "R 31 / G 80 / B 157",
+          "cmyk": "C 94 / M 71 / Y 1 / K 0",
+          "hex": "#1F509D"
+        },
+        "accent_3": {
+          "rgb": "R 245 / G 238 / B 158",
+          "cmyk": "C 7 / M 1 / Y 49 / K 0",
+          "hex": "#F5EE9E"
+        },
+        "accent_4": {
+          "rgb": "R 245 / G 158 / B 77",
+          "cmyk": "C 0 / M 46 / Y 75 / K 0",
+          "hex": "#F59E4D"
+        }
+      }
+    },
+    "typography": {
+      "primary": {
+        "name": "Arial",
+        "variants": ["Regular", "Bold"],
+        "usage": "Fließtext in Printmedien, E-Mail-Signaturen, Word-Vorlagen, Präsentationen",
+        "min_size": "7 pt"
+      },
+      "headline": {
+        "name": "Oswald",
+        "variants": ["Regular", "Bold"],
+        "usage": "Überschriften, Zwischenüberschriften, Texthervorhebungen"
+      },
+      "web_marketing": {
+        "name": "Raleway",
+        "variants": ["Light", "Regular", "Medium", "SemiBold"],
+        "usage": "Werbemittel, Marketing, Website-Designelemente"
+      }
+    },
+    "design_elements": {
+      "angle": "-14.5%",
+      "logo_protection_zone": "1 x Parallelogramm + Weißraum",
+      "minimum_logo_size": "2.0 x 0.8 cm",
+      "preferred_logo_position": "oben rechts"
+    }
+  },
+  "product_categories": {
+    "hemming": {
+      "name": {
+        "spanish": "Tecnología de Dobladillo",
+        "english": "Hemming Technology"
+      },
+      "description": {
+        "spanish": "Sistemas modulares de dobladillo flexibles, rentables y adaptables a diversas escalas de producción.",
+        "english": "Modular hemming systems that are flexible, cost-effective, and adaptable to various production scales."
+      },
+      "products": {
+        "single_s": {
+          "name": "FFThemtec Single S",
+          "description": "Spring suspended roller hemming head with modular design",
+          "market_launch": 1996,
+          "type": "FFT_product"
+        },
+        "single_f": {
+          "name": "FFThemtec Single F",
+          "description": "Rigid roller hemming head with modular design",
+          "market_launch": 1996,
+          "type": "FFT_product"
+        },
+        "single_y": {
+          "name": "FFThemtec Single Y",
+          "description": "Roller hemming head for optimized access to curved parts",
+          "market_launch": 2007,
+          "type": "FFT_product"
+        },
+        "single_sa": {
+          "name": "FFThemtec Single SA",
+          "description": "Customized roller hemming head solution with individual designs",
+          "market_launch": 1996,
+          "type": "FFT_product"
+        },
+        "twinstep": {
+          "name": "FFThemtec Twinstep",
+          "description": "Robot-guided roller hemming tool for add-on parts with two hemming steps",
+          "market_launch": 2006,
+          "type": "FFT_product"
+        },
+        "verso": {
+          "name": "FFThemtec Verso",
+          "description": "Counter roller system for hemming without hemming bed",
+          "market_launch": 2007,
+          "type": "FFT_product"
+        },
+        "verso_a2": {
+          "name": "FFThemtec VersoA2",
+          "description": "Automatic wheel arch hemming system with tool carrier and hemming frame",
+          "market_launch": 2006,
+          "type": "FFT_product"
+        },
+        "verso_a4": {
+          "name": "FFThemtec VersoA4",
+          "description": "Automatic wheel arch hemming system using two robots",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "verso_m": {
+          "name": "FFThemtec VersoM",
+          "description": "Manual wheel arch hemming system with roller hemming head",
+          "market_launch": 2006,
+          "type": "FFT_product"
+        },
+        "verso_mp": {
+          "name": "FFThemtec VersoMP",
+          "description": "Hemming system for wheel arches with operator's desk",
+          "market_launch": 2018,
+          "type": "FFT_product"
+        },
+        "verso_ml": {
+          "name": "FFThemtec VersoML",
+          "description": "Manual wheel arch hemming system for low volume prototyping",
+          "market_launch": 2019,
+          "type": "FFT_product"
+        },
+        "180_degree": {
+          "name": "FFThemtec 180°",
+          "description": "Automatic counter roller hemming system for 180° hem creation",
+          "market_launch": 2009,
+          "type": "FFT_product"
+        },
+        "hemqc_force": {
+          "name": "FFThemtec HemQC Force",
+          "description": "Hemming force monitoring system for quality assurance",
+          "market_launch": 2025,
+          "type": "FFT_product"
+        },
+        "roller_cleaner": {
+          "name": "FFThemtec Roller Cleaner",
+          "description": "Automatic cleaning of folding rollers without process interruption",
+          "market_launch": 2009,
+          "type": "FFT_product"
+        }
+      }
+    },
+    "welding": {
+      "name": {
+        "spanish": "Tecnología de Soldadura",
+        "english": "Welding Technology"
+      },
+      "description": {
+        "spanish": "Tecnologías de soldadura que incluyen soldadura por resistencia, soldadura láser y procesos híbridos.",
+        "english": "Welding technologies including resistance welding, laser welding, and hybrid processes."
+      },
+      "products": {
+        "basic_c_gun": {
+          "name": "FFTweldtec Basic C-Gun",
+          "description": "Robot welding gun for steel welding with C-frame, max. 6,000N welding force",
+          "market_launch": 2021,
+          "type": "FFT_product"
+        },
+        "basic_x_gun": {
+          "name": "FFTweldtec Basic X-Gun",
+          "description": "Robot welding gun for steel welding with X-frame, max. 5,000N welding force",
+          "market_launch": 2021,
+          "type": "FFT_product"
+        },
+        "basic_xl_gun": {
+          "name": "FFTweldtec Basic XL-Gun",
+          "description": "Robot welding gun with extra-large welding window, max. 8,000N welding force",
+          "market_launch": 2021,
+          "type": "FFT_product"
+        },
+        "advanced_c_gun": {
+          "name": "FFTweldtec Advanced C-Gun",
+          "description": "Robot welding gun series for aluminum welding",
+          "market_launch": 2024,
+          "type": "FFT_product"
+        },
+        "tipchanger": {
+          "name": "FFTweldtec TipChanger",
+          "description": "Time-optimized automatic changing of electrode caps on robot-guided welding guns",
+          "market_launch": 2003,
+          "type": "FFT_product"
+        },
+        "mobile_tipchanger": {
+          "name": "FFTweldtec Mobile TipChanger",
+          "description": "Automatic changing of electrode caps on stationary welding guns",
+          "market_launch": 2003,
+          "type": "FFT_product"
+        },
+        "variopicker_evo": {
+          "name": "FFTweldtec VarioPicker® EVO",
+          "description": "Geometric fold fixing for hemmed flange fixation",
+          "market_launch": 2008,
+          "type": "FFT_product"
+        },
+        "engineering_service": {
+          "name": "FFTweldtec Engineering Service",
+          "description": "Design and development of WPS gun base bodies and special welding machines",
+          "market_launch": 2013,
+          "type": "FFT_service"
+        },
+        "test_station": {
+          "name": "FFTweldtec Test Station",
+          "description": "Servopneumatic and servomotoric robot weld gun testing",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "measuring_station": {
+          "name": "FFTweldtec Measuring Station",
+          "description": "Servopneumatic and servomotoric robot weld gun measuring",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "inline_pwm": {
+          "name": "FFTweldtec Inline PWM",
+          "description": "Compact projection welding machine for nuts and bolts inside production line",
+          "market_launch": 2013,
+          "type": "FFT_product"
+        },
+        "offline_pwm": {
+          "name": "FFTweldtec Offline PWM",
+          "description": "Compact projection welding machine for manual process outside the line",
+          "market_launch": 2013,
+          "type": "FFT_product"
+        },
+        "oem_guns": {
+          "name": "OEM Robot Welding Guns",
+          "description": "Servo-pneumatic and servo-motoric guns for Volkswagen Group, Audi, BMW, Mercedes Benz",
+          "market_launch": 2023,
+          "type": "FFT_product",
+          "clients": ["Volkswagen Group", "Audi", "BMW", "Mercedes Benz"]
+        }
+      }
+    },
+    "lightweight": {
+      "name": {
+        "spanish": "Tecnología de Materiales Ligeros",
+        "english": "Lightweight Technology"
+      },
+      "description": {
+        "spanish": "Tecnologías de unión para materiales ligeros incluyendo remaches, tornillos y clinchado.",
+        "english": "Joining technologies for lightweight materials including rivets, screws and clinching."
+      },
+      "products": {
+        "spr": {
+          "name": "EpressSPR (Self-Piercing Rivet)",
+          "description": "Fastener for joining metal sheets, especially aluminum, without pre-drilling",
+          "type": "third_party_product",
+          "brand": "Epress"
+        },
+        "fds": {
+          "name": "EpressFDS (Flow Drill Screw)",
+          "description": "Self-piercing screw for joining metal sheets through friction and pressure",
+          "type": "third_party_product",
+          "brand": "Epress"
+        },
+        "clinching": {
+          "name": "EpressClinch",
+          "description": "Mechanical joining process forming interlock between metal sheets without fasteners",
+          "type": "third_party_product",
+          "brand": "Epress"
+        },
+        "ram": {
+          "name": "RAM Presses",
+          "description": "Suitable for transporting adhesive and sealing materials from 20L to 1,000L drums",
+          "type": "third_party_product"
+        },
+        "emu": {
+          "name": "EMU - Electric Shot Meter Unit",
+          "description": "For large-scale applications, processing materials with low to high viscosity, 18-900 cm³",
+          "type": "third_party_product"
+        },
+        "applicator": {
+          "name": "Applicator",
+          "description": "Specific applicators for precise, accurate material placement",
+          "type": "third_party_product"
+        }
+      }
+    },
+    "laser_technology": {
+      "name": {
+        "spanish": "Tecnología Láser",
+        "english": "Laser Technology"
+      },
+      "description": {
+        "spanish": "Soluciones láser versátiles para corte, soldadura, soldadura blanda, limpieza y estructuración.",
+        "english": "Versatile laser solutions for cutting, welding, soldering, cleaning, and structuring."
+      },
+      "products": {
+        "protection_cabin_ecoline": {
+          "name": "FFTlasertec Laser Protection Cabin EcoLine",
+          "description": "Cost-efficient modular design for easy installation, up to 5.5x5.5x4m",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "protection_cabin_proline": {
+          "name": "FFTlasertec Laser Protection Cabin ProLine",
+          "description": "Cost-efficient design for large dimensions and expanded layout options",
+          "market_launch": 2022,
+          "type": "FFT_product"
+        },
+        "protection_cabin_highline": {
+          "name": "FFTlasertec Laser Protection Cabin HighLine",
+          "description": "For highly automated systems in complex industrial applications",
+          "market_launch": 2008,
+          "type": "FFT_product"
+        },
+        "distance_check": {
+          "name": "FFTlasertec DistanceCheck",
+          "description": "Verifies correct distance of laser cleaning system from the part",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "rpd_2d": {
+          "name": "FFTlasertec RPD 2D",
+          "description": "Small laser remote scanner with Ø164 mm working field and 480 mm focal distance",
+          "market_launch": 2024,
+          "type": "FFT_product"
+        }
+      }
+    },
+    "metrology": {
+      "name": {
+        "spanish": "Metrología",
+        "english": "Metrology"
+      },
+      "description": {
+        "spanish": "Sistemas de medición y control de calidad precisos, integrados con procesamiento de imágenes e IA.",
+        "english": "Precise measurement and quality control systems, integrated with image processing and AI."
+      },
+      "products": {
+        "variogauge_dh": {
+          "name": "FFTmetrology VarioGauge DH",
+          "description": "Double Head Sensor for deeper gap measurement and stable radius edge measurement",
+          "market_launch": 2019,
+          "type": "FFT_product"
+        },
+        "variogauge_vg6_2d": {
+          "name": "FFTmetrology VarioGauge VG6 2D",
+          "description": "Ring light sensor for measuring holes with 0.05 mm optical resolution",
+          "market_launch": 2016,
+          "type": "FFT_product"
+        },
+        "variogauge_vg6_25d": {
+          "name": "FFTmetrology VarioGauge VG6 2.5D",
+          "description": "Triangulation sensor for edge detection and gap/flush measurement",
+          "market_launch": 2016,
+          "type": "FFT_product"
+        },
+        "variogauge_vg7_25d": {
+          "name": "FFTmetrology VarioGauge VG7 2.5D",
+          "description": "New generation triangulation sensor replacing VG6 2.5D with better resolution",
+          "market_launch": 2025,
+          "type": "FFT_product"
+        },
+        "blue": {
+          "name": "FFTmetrology Blue",
+          "description": "Laser scanner with blue laser (405 nm), high scan rate and small size",
+          "market_launch": 2015,
+          "type": "FFT_product"
+        },
+        "variogauge_hub": {
+          "name": "FFTmetrology VarioGauge HUB",
+          "description": "Industrial-standard solution for continuous robot gripper use",
+          "market_launch": 2016,
+          "type": "FFT_product"
+        },
+        "vario_ic": {
+          "name": "FFTmetrology VarioIC®",
+          "description": "Micro controller based solution for robot guiding system applications",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "camera_panel": {
+          "name": "FFTmetrology VarioGauge Camera Panel",
+          "description": "Camera with light panel for TPC and RGS as 2D system",
+          "market_launch": 2012,
+          "type": "FFT_product"
+        },
+        "pig": {
+          "name": "FFTmetrology Pipeline Inspection Gauge (PIG)",
+          "description": "Solution for detecting small leakages in pipelines, TÜV compliant",
+          "market_launch": 1995,
+          "type": "FFT_product"
+        },
+        "ai_panel": {
+          "name": "FFTmetrology AI Panel",
+          "description": "Device with controller, camera, lighting, Nvidia Jetson for AI applications",
+          "market_launch": 2018,
+          "type": "FFT_product"
+        },
+        "ai_pick": {
+          "name": "FFTmetrology AI Pick®",
+          "description": "Identifies parts and sends position/rotation information to robots using AI",
+          "market_launch": 2021,
+          "type": "FFT_product"
+        },
+        "ai_ident": {
+          "name": "FFTmetrology AI Ident®",
+          "description": "Identifies and checks if parts are present at correct positions using AI",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "ai_check": {
+          "name": "FFTmetrology AI Check®",
+          "description": "Finds if parts are present and geometrically correct using AI",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "bead_control": {
+          "name": "FFTmetrology BeadControl®",
+          "description": "Scans adhesive bead in 3D detecting position, width and height",
+          "market_launch": 2015,
+          "type": "FFT_product"
+        },
+        "hemqc": {
+          "name": "FFTmetrology HemQC",
+          "description": "Checks quality of hemmed shape during roller hemming process",
+          "market_launch": 2010,
+          "type": "FFT_product"
+        },
+        "shapescan": {
+          "name": "FFTmetrology Shapescan®",
+          "description": "Basic scanning solution with robot-guided sensor or component movement",
+          "market_launch": 2010,
+          "type": "FFT_product"
+        },
+        "bestfit": {
+          "name": "FFTmetrology BestFit",
+          "description": "Calculates ideal assembly position considering individual tolerances",
+          "market_launch": 2004,
+          "type": "FFT_product"
+        },
+        "ips": {
+          "name": "FFTmetrology iPS",
+          "description": "Determines vehicle body deviations in one station for optimization",
+          "market_launch": 2021,
+          "type": "FFT_product"
+        },
+        "rgs": {
+          "name": "FFTmetrology RGS",
+          "description": "Robot guidance system using 2D or 2.5D images for calculated positioning",
+          "market_launch": 2019,
+          "type": "FFT_product"
+        },
+        "vision_checkup": {
+          "name": "FFTmetrology VisionCheckup",
+          "description": "Checks presence of components and features in 2D or 2.5D",
+          "type": "FFT_product"
+        }
+      }
+    },
+    "agv": {
+      "name": {
+        "spanish": "Vehículos Guiados Automáticamente (AGV)",
+        "english": "Automated Guided Vehicles (AGV)"
+      },
+      "description": {
+        "spanish": "Sistemas de vehículos guiados automáticamente para tareas logísticas y manejo de materiales.",
+        "english": "Automated guided vehicle systems for logistical tasks and material handling."
+      },
+      "products": {
+        "elevate_1t": {
+          "name": "FFTigv ELEVATE 1t",
+          "description": "Smart weightlifter AGV with lifting table, up to 1 tonne capacity",
+          "type": "FFT_product"
+        },
+        "movy_1t": {
+          "name": "FFTigv MOVY 1t",
+          "description": "Basic AGV model with bidirectional movement, up to 1 ton load capacity",
+          "type": "FFT_product"
+        }
+      }
+    },
+    "testing": {
+      "name": {
+        "spanish": "Pruebas y Testing",
+        "english": "Testing"
+      },
+      "description": {
+        "spanish": "Sistemas de prueba y verificación para equipos de soldadura y otros componentes.",
+        "english": "Testing and verification systems for welding equipment and other components."
+      },
+      "products": {
+        "test_station": {
+          "name": "FFTweldtec Test Station",
+          "description": "Tests servo-pneumatic and servo-motorised robotic welding guns",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        },
+        "measuring_station": {
+          "name": "FFTweldtec Measuring Station",
+          "description": "Professional calibration of robot welding guns with 3D measuring systems",
+          "market_launch": 2023,
+          "type": "FFT_product"
+        }
+      }
+    },
+    "plant_components": {
+      "name": {
+        "spanish": "Componentes de Planta",
+        "english": "Plant Components"
+      },
+      "description": {
+        "spanish": "Componentes y sistemas para plantas de producción industrial.",
+        "english": "Components and systems for industrial production plants."
+      },
+      "products": {}
+    },
+    "part_logistics": {
+      "name": {
+        "spanish": "Logística de Piezas",
+        "english": "Part Logistics"
+      },
+      "description": {
+        "spanish": "Sistemas de logística y manejo de piezas en procesos de producción.",
+        "english": "Logistics and part handling systems in production processes."
+      },
+      "products": {}
+    },
+    "standards": {
+      "name": {
+        "spanish": "Estándares",
+        "english": "Standards"
+      },
+      "description": {
+        "spanish": "Componentes y sistemas estandarizados para aplicaciones industriales.",
+        "english": "Standardized components and systems for industrial applications."
+      },
+      "products": {}
+    }
+  },
+  "services": {
+    "turnkey_solutions": {
+      "name": {
+        "spanish": "Soluciones Llave en Mano",
+        "english": "Turnkey Solutions"
+      },
+      "description": {
+        "spanish": "Gestión completa de proyectos desde el concepto hasta la entrega, considerando todas las condiciones límite y requisitos de calidad.",
+        "english": "Complete project management from concept to delivery, considering all boundary conditions and quality requirements."
+      }
+    },
+    "process_automation": {
+      "name": {
+        "spanish": "Automatización de Procesos",
+        "english": "Process Automation"
+      },
+      "description": {
+        "spanish": "Desarrollo e implementación de sistemas innovadores que reducen procesos manuales y optimizan secuencias de producción.",
+        "english": "Development and implementation of innovative systems that reduce manual processes and optimize production sequences."
+      }
+    },
+    "engineering_services": {
+      "name": {
+        "spanish": "Servicios de Ingeniería",
+        "english": "Engineering Services"
+      },
+      "description": {
+        "spanish": "Diseño y desarrollo de sistemas especializados, construcción 3D, cálculos FEM y protocolos de prueba.",
+        "english": "Design and development of specialized systems, 3D construction, FEM calculations and test protocols."
+      }
+    }
+  },
+  "target_industries": [
+    {
+      "name": "Automotive",
+      "spanish": "Automotriz",
+      "description": "OEM, Tier 1 y otros proveedores de la industria automotriz"
+    },
+    {
+      "name": "Aviation",
+      "spanish": "Aviación",
+      "description": "Industria aeronáutica y aeroespacial"
+    },
+    {
+      "name": "White Goods",
+      "spanish": "Electrodomésticos",
+      "description": "Fabricantes de electrodomésticos"
+    }
+  ],
+  "key_clients": [
+    "Volkswagen Group",
+    "Audi",
+    "BMW",
+    "Mercedes Benz",
+    "Ford",
+    "Electrolux"
+  ],
+  "global_presence": {
+    "headquarters": "Fulda, Germany",
+    "description": "Presencia mundial con equipo global y gran proximidad al cliente"
+  }
+}
