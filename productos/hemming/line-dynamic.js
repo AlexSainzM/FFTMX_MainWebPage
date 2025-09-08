@@ -19,7 +19,7 @@ function detectLanguage() {
 
 // Función para obtener el archivo JSON correcto según el idioma
 function getJsonFileName(language) {
-    return `./hemtec-products-${language}.json`;
+    return `./line-products-${language}.json`;
 }
 
 // Función para obtener textos según el idioma

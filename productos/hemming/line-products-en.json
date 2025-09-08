@@ -1,0 +1,101 @@
+{
+  "familia": "FFT hemtec",
+  "productos": [
+    {
+      "nombre": "Single",
+      "descripcion": "El sistema modular FFThemtec Single es una herramienta flexible de dobladillado de rodillos guiada por robot para dobladillos planos, en gota, en cuña y especiales de acero y aluminio, que maneja fácilmente múltiples derivados en una línea de producción.",
+      "lanzamiento": 1996,
+      "imagen_url": "single.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/single",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Single/Presentation/FFT-hemtec-Single-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-Single/Technical-Data/Technical-Data-Single-S-ENG.pdf",
+        "url_datasheet2": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Technical-Data/Technical-Data-VersoA4-ENG.pdf",
+        "url_datasheet3": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Technical-Data/Technical-Data-VersoA-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "Twinstep",
+      "descripcion": "La FFThemtec Twinstep es una herramienta guiada por robot para producir una amplia gama de geometrías de galces para componentes de acero y aluminio.",
+      "lanzamiento": 2006,
+      "imagen_url": "twinstep.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/twinstep",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Twinstep/Presentation/FFT-hemtec-Twinstep-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-Twinstep/Technical-Data/Technical-Data-Twinstep-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "Verso",
+      "descripcion": "El cabezal dobladillador de rodillos FFThemtec Verso es una herramienta guiada por robot con hasta cuatro pares de rodillos dobladilladores. Gracias al principio de rodillo contrario, garantiza una fuerza de plegado uniforme.",
+      "lanzamiento": 2007,
+      "imagen_url": "verso.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/verso",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Verso/Presentation/FFT-hemtec-Verso-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "VersoA",
+      "descripcion": "El sistema de plegado por rodillo se utiliza en instalaciones de fabricación automatizadas para paneles laterales y pasos de rueda. Consta de un cabezal de plegado por rodillo y un bastidor de plegado especial. Disponible como sistema de uno o dos robots.",
+      "lanzamiento": 2006,
+      "imagen_url": "versoa.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/versoa",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Presentation/FFT-hemtec-VersoA2-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Technical-Data/Technical-Data-VersoA2-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "VersoM / ML",
+      "descripcion": "El sistema de engrapado con rodillo VersoM / VersoML de FFThemtec es ideal para la construcción de prototipos y series pequeñas. Se maneja manualmente y cuenta con un cabezal de engrapado de rodillo neumático o de manivela y un bastidor de engrapado.",
+      "lanzamiento": 2006,
+      "imagen_url": "versom.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/versom",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Presentation/FFT-hemtec-VersoM-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Technical-Data/Technical-Data-VersoM-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "VersoMP",
+      "descripcion": "El sistema de engrapado con rodillo VersoMP de FFThemtec permite un desarrollo eficiente de prototipos y la producción de pequeñas series para paneles laterales y pasos de rueda. El cabezal neumático está disponible con manivela y se acciona manualmente.",
+      "lanzamiento": 2018,
+      "imagen_url": "versomp.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/versom",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Presentation/FFT-hemtec-VersoMP-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Technical-Data/Technical-Data-VersoMP-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "180°",
+      "descripcion": "El cabezal dobladillador de rodillos de 180° FFThemtec es una herramienta guiada por robot con 1-5 rodillos dobladilladores. El cabezal de engrapado de rodillos puede utilizarse guiado por robot o de forma estacionaria.",
+      "lanzamiento": 2009,
+      "imagen_url": "180.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/180"
+      }
+    },
+    {
+      "nombre": "Roller Cleaner",
+      "descripcion": "Este sistema de limpieza de rodillos automatiza la limpieza de los rodillos de plegado sin interrumpir el proceso. El rodillo se humedece mínimamente con aceite y un rascador elimina el adhesivo.",
+      "lanzamiento": 2009,
+      "imagen_url": "roller-cleaner.webp",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/joining-hemming-separating/fft-hemtec/cleaning-unit",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Roller-Cleaner/Presentation/FFT-hemtec-Roller-Cleaner-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-Roller-Cleaner/Technical-Data/Technical-Data-Roller-Cleaner-ENG.pdf"
+      }
+    },
+    {
+      "nombre": "HemQC",
+      "descripcion": "FFTmetrology HemQC comprueba la calidad del molde plegado durante el proceso de dobladillado con rodillo. Se trata de un proceso de escaneado en el que se mide la anchura y la altura del pliegue o el exceso de adhesivo.",
+      "lanzamiento": 2025,
+      "imagen_url": "hemqc.webp",
+      "enlaces": {
+        
+      }
+    }
+  ]
+}
