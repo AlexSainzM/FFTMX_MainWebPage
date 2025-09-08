@@ -1,177 +1,177 @@
 {
-    "familia": "FFT hemtec",
-    "productos": [
-      {
-        "nombre": "Single S",
-        "descripcion": "The FFThemtec Single S is a spring suspended roller hemming head. Its modular design offers a large variety of different configurations.",
-        "lanzamiento": 1996,
-        "imagen_url": "FFT_hemtec_Single_S.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/single-s",
-          "url_informacion": "https://example.com/info/single-s",
-          "url_datasheet": "https://example.com/datasheets/single-s.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "Single F",
-        "descripcion": "The FFThemtec Single F is a ridgid roller hemming head. Its modular design offers a large variety of different configurations.",
-        "lanzamiento": 1996,
-        "imagen_url": "FFT_hemtec_Single_F.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/single-f",
-          "url_informacion": "https://example.com/info/single-f",
-          "url_datasheet": "https://example.com/datasheets/single-f.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "Single Y",
-        "descripcion": "The FFThemtec Single Y is a roller hemming head, which provides optimised access for curved parts.",
-        "lanzamiento": 2007,
-        "imagen_url": "FFT_hemtec_Single_Y.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/single-y",
-          "url_informacion": "https://example.com/info/single-y",
-          "url_datasheet": "https://example.com/datasheets/single-y.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "Single SA",
-        "descripcion": "The FFThemtec Single SA is a customized roller hemming head solution with individual designs according to your requirements.",
-        "lanzamiento": 1996,
-        "imagen_url": "Single_SA.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/single-sa",
-          "url_informacion": "https://example.com/info/single-sa",
-          "url_datasheet": "https://example.com/datasheets/single-sa.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "Twinstep",
-        "descripcion": "The FFThemtec Twinstep is a robot-guided roller hemming tool for add-on parts. It's roller hemming head allows two hemming steps in one robot movement.",
-        "lanzamiento": 2006,
-        "imagen_url": "Twinstep.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/twinstep",
-          "url_informacion": "https://example.com/info/twinstep",
-          "url_datasheet": "https://example.com/datasheets/twinstep.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "Verso",
-        "descripcion": "The FFThemtec Verso is a counter roller system which enables hemming tasks without a hemming bed.",
-        "lanzamiento": 2007,
-        "imagen_url": "Verso.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/verso",
-          "url_informacion": "https://example.com/info/verso",
-          "url_datasheet": "https://example.com/datasheets/verso.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "VersoA2",
-        "descripcion": "The FFThemtec VersoA2 is an automatic wheel arch hemming system with a tool carrier, a hemming frame and a deposit rack.",
-        "lanzamiento": 2006,
-        "imagen_url": "VersoA2.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/versoa2",
-          "url_informacion": "https://example.com/info/versoa2",
-          "url_datasheet": "https://example.com/datasheets/versoa2.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "VersoA4",
-        "descripcion": "The FFThemtec VersoA4 is an automatic wheel arch hemming system using two robots, a hemming frame and a roller hemming head.",
-        "lanzamiento": 2023,
-        "imagen_url": "VersoA4.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/versoa4",
-          "url_informacion": "https://example.com/info/versoa4",
-          "url_datasheet": "https://example.com/datasheets/versoa4.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "VerSoM",
-        "descripcion": "The FFThemtec VerSoM is a manual wheel arch hemming system with a roller hemming head, a hemming frame and a deposit rack.",
-        "lanzamiento": 2006,
-        "imagen_url": "FFT_hemtec_VersoM.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/versom",
-          "url_informacion": "https://example.com/info/versom",
-          "url_datasheet": "https://example.com/datasheets/versom.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "VerSoMP",
-        "descripcion": "The FFThemtec VerSoMP is a hemming system for wheel arches with a roller hemming head, operator's desk, a hemming frame and a deposit rack",
-        "lanzamiento": 2018,
-        "imagen_url": "FFT_hemtec_VersoMP.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/versomp",
-          "url_informacion": "https://example.com/info/versomp",
-          "url_datasheet": "https://example.com/datasheets/versomp.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "VerSoML",
-        "descripcion": "The FFThemtec VerSoML is a manual wheel arch hemming system with a hemming bed made of plastics and a completely manually operated hemming head. It is especially designed for low volume prototyping.",
-        "lanzamiento": 2019,
-        "imagen_url": "FFT_hemtec_VersoML.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/versoml",
-          "url_informacion": "https://example.com/info/versoml",
-          "url_datasheet": "https://example.com/datasheets/versoml.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "180°",
-        "descripcion": "The FFThemtec 180° is an automatic counter roller hemming system for the creation of a 180° hem.",
-        "lanzamiento": 2009,
-        "imagen_url": "180_degree_hemming_machine.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/180",
-          "url_informacion": "https://example.com/info/180",
-          "url_datasheet": "https://example.com/datasheets/180.pdf",
-          "url_video": "https://example.com/videos/180",
-          "url_galeria": "https://example.com/images/180",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "Roller Cleaner",
-        "descripcion": "The FFThemtec Roller Cleaner enables automatic cleaning of folding rollers without interrupting the ongoing automatic process.",
-        "lanzamiento": 2009,
-        "imagen_url": "roller_cleaner_machine.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/roller-cleaner",
-          "url_informacion": "https://example.com/info/roller-cleaner",
-          "url_datasheet": "https://example.com/datasheets/roller-cleaner.pdf",
-          "url_video": "https://example.com/videos/roller-cleaner",
-          "url_galeria": "https://example.com/images/roller-cleaner",
-          "url_contacto": "mailto:contacto@example.com"
-        }
-      },
-      {
-        "nombre": "HemQC Force",
-        "descripcion": "The FFThemtec HemQC Force is a hemming force monitoring system for quality assurance and optimization.",
-        "lanzamiento": 2025,
-        "imagen_url": "laptop_displaying_HemQC_Force_software.png",
-        "enlaces": {
-          "url_producto": "https://example.com/products/hemqc-force",
-          "url_informacion": "https://example.com/info/hemqc-force",
-          "url_datasheet": "https://example.com/datasheets/hemqc-force.pdf",
-          "url_contacto": "mailto:contacto@example.com"
-        }
+  "familia": "FFT hemtec",
+  "productos": [
+    {
+      "nombre": "Single S",
+      "descripcion": "El FFThemtec Single S es un cabezal de rebordeado por rodillos suspendido por resorte. Su diseño modular ofrece una gran variedad de configuraciones.",
+      "lanzamiento": 1996,
+      "imagen_url": "FFT_hemtec_Single_S.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/single-s",
+        "url_informacion": "https://example.com/info/single-s",
+        "url_datasheet": "https://example.com/datasheets/single-s.pdf",
+        "url_contacto": "mailto:contacto@example.com"
       }
-    ]
-  }
+    },
+    {
+      "nombre": "Single F",
+      "descripcion": "El FFThemtec Single F es un cabezal de rebordeado por rodillos rígido. Su diseño modular ofrece una gran variedad de configuraciones.",
+      "lanzamiento": 1996,
+      "imagen_url": "FFT_hemtec_Single_F.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/single-f",
+        "url_informacion": "https://example.com/info/single-f",
+        "url_datasheet": "https://example.com/datasheets/single-f.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "Single Y",
+      "descripcion": "El FFThemtec Single Y es un cabezal de rebordeado por rodillos que proporciona acceso optimizado para piezas curvas.",
+      "lanzamiento": 2007,
+      "imagen_url": "FFT_hemtec_Single_Y.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/single-y",
+        "url_informacion": "https://example.com/info/single-y",
+        "url_datasheet": "https://example.com/datasheets/single-y.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "Single SA",
+      "descripcion": "El FFThemtec Single SA es una solución de cabezal de rebordeado por rodillos personalizada con diseños individuales según tus requisitos.",
+      "lanzamiento": 1996,
+      "imagen_url": "Single_SA.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/single-sa",
+        "url_informacion": "https://example.com/info/single-sa",
+        "url_datasheet": "https://example.com/datasheets/single-sa.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "Twinstep",
+      "descripcion": "El FFThemtec Twinstep es una herramienta de rebordeado por rodillos guiada por robot para piezas añadidas. Su cabezal permite dos pasos de rebordeado en un solo movimiento del robot.",
+      "lanzamiento": 2006,
+      "imagen_url": "Twinstep.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/twinstep",
+        "url_informacion": "https://example.com/info/twinstep",
+        "url_datasheet": "https://example.com/datasheets/twinstep.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "Verso",
+      "descripcion": "El FFThemtec Verso es un sistema de contrarrodillos que permite tareas de rebordeado sin una cama de rebordeado.",
+      "lanzamiento": 2007,
+      "imagen_url": "Verso.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/verso",
+        "url_informacion": "https://example.com/info/verso",
+        "url_datasheet": "https://example.com/datasheets/verso.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "VersoA2",
+      "descripcion": "El FFThemtec VersoA2 es un sistema automático de rebordeado de arcos de rueda con un portaherramientas, un bastidor de rebordeado y un rack de depósito.",
+      "lanzamiento": 2006,
+      "imagen_url": "VersoA2.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/versoa2",
+        "url_informacion": "https://example.com/info/versoa2",
+        "url_datasheet": "https://example.com/datasheets/versoa2.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "VersoA4",
+      "descripcion": "El FFThemtec VersoA4 es un sistema automático de rebordeado de arcos de rueda que utiliza dos robots, un bastidor de rebordeado y un cabezal de rebordeado por rodillos.",
+      "lanzamiento": 2023,
+      "imagen_url": "VersoA4.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/versoa4",
+        "url_informacion": "https://example.com/info/versoa4",
+        "url_datasheet": "https://example.com/datasheets/versoa4.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "VerSoM",
+      "descripcion": "El FFThemtec VerSoM es un sistema manual de rebordeado de arcos de rueda con un cabezal de rebordeado por rodillos, un bastidor de rebordeado y un rack de depósito.",
+      "lanzamiento": 2006,
+      "imagen_url": "FFT_hemtec_VersoM.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/versom",
+        "url_informacion": "https://example.com/info/versom",
+        "url_datasheet": "https://example.com/datasheets/versom.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "VerSoMP",
+      "descripcion": "El FFThemtec VerSoMP es un sistema de rebordeado para arcos de rueda con un cabezal de rebordeado por rodillos, puesto de operador, un bastidor de rebordeado y un rack de depósito.",
+      "lanzamiento": 2018,
+      "imagen_url": "FFT_hemtec_VersoMP.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/versomp",
+        "url_informacion": "https://example.com/info/versomp",
+        "url_datasheet": "https://example.com/datasheets/versomp.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "VerSoML",
+      "descripcion": "El FFThemtec VerSoML es un sistema manual de rebordeado de arcos de rueda con una cama de rebordeado de plástico y un cabezal completamente manual. Está especialmente diseñado para prototipado de bajo volumen.",
+      "lanzamiento": 2019,
+      "imagen_url": "FFT_hemtec_VersoML.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/versoml",
+        "url_informacion": "https://example.com/info/versoml",
+        "url_datasheet": "https://example.com/datasheets/versoml.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "180°",
+      "descripcion": "El FFThemtec 180° es un sistema automático de contrarrodillos para la creación de un reborde de 180°.",
+      "lanzamiento": 2009,
+      "imagen_url": "180_degree_hemming_machine.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/180",
+        "url_informacion": "https://example.com/info/180",
+        "url_datasheet": "https://example.com/datasheets/180.pdf",
+        "url_video": "https://example.com/videos/180",
+        "url_galeria": "https://example.com/images/180",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "Roller Cleaner",
+      "descripcion": "El FFThemtec Roller Cleaner permite la limpieza automática de rodillos de plegado sin interrumpir el proceso automático en curso.",
+      "lanzamiento": 2009,
+      "imagen_url": "roller_cleaner_machine.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/roller-cleaner",
+        "url_informacion": "https://example.com/info/roller-cleaner",
+        "url_datasheet": "https://example.com/datasheets/roller-cleaner.pdf",
+        "url_video": "https://example.com/videos/roller-cleaner",
+        "url_galeria": "https://example.com/images/roller-cleaner",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    },
+    {
+      "nombre": "HemQC Force",
+      "descripcion": "El FFThemtec HemQC Force es un sistema de monitoreo de fuerza de rebordeado para aseguramiento de la calidad y optimización.",
+      "lanzamiento": 2025,
+      "imagen_url": "laptop_displaying_HemQC_Force_software.png",
+      "enlaces": {
+        "url_producto": "https://example.com/products/hemqc-force",
+        "url_informacion": "https://example.com/info/hemqc-force",
+        "url_datasheet": "https://example.com/datasheets/hemqc-force.pdf",
+        "url_contacto": "mailto:contacto@example.com"
+      }
+    }
+  ]
+}

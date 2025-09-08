@@ -1,8 +1,69 @@
+// Función para detectar el idioma del sitio
+function detectLanguage() {
+    // Primero intentar detectar por el atributo lang del HTML
+    const htmlLang = document.documentElement.lang;
+    
+    if (htmlLang) {
+        return htmlLang.toLowerCase().startsWith('en') ? 'en' : 'es';
+    }
+    
+    // Si no hay lang, detectar por la URL o nombre del archivo
+    const currentPath = window.location.pathname;
+    if (currentPath.includes('/en.html') || currentPath.includes('/en/')) {
+        return 'en';
+    }
+    
+    // Por defecto, usar español
+    return 'es';
+}
+
+// Función para obtener el archivo JSON correcto según el idioma
+function getJsonFileName(language) {
+    return `./hemtec-products-${language}.json`;
+}
+
+// Función para obtener textos según el idioma
+function getTexts(language) {
+    const texts = {
+        es: {
+            launchedIn: 'Lanzado en',
+            viewProduct: 'Ver producto',
+            moreInfo: 'Más info',
+            datasheet: 'Datasheet',
+            contact: 'Contactar',
+            errorTitle: 'Error al cargar productos',
+            errorMessage: 'No se pudieron cargar los productos en este momento. Por favor, intenta recargar la página.',
+            errorContact: 'Si el problema persiste, contacta al administrador del sitio.',
+            productsLoaded: 'productos cargados dinámicamente'
+        },
+        en: {
+            launchedIn: 'Launched in',
+            viewProduct: 'View product',
+            moreInfo: 'More info',
+            datasheet: 'Datasheet',
+            contact: 'Contact',
+            errorTitle: 'Error loading products',
+            errorMessage: 'Products could not be loaded at this time. Please try reloading the page.',
+            errorContact: 'If the problem persists, contact the site administrator.',
+            productsLoaded: 'products loaded dynamically'
+        }
+    };
+    
+    return texts[language] || texts.es;
+}
+
 // Función para cargar y mostrar productos de FFT hemtec dinámicamente
 document.addEventListener('DOMContentLoaded', async function() {
     try {
-        // Cargar datos del JSON
-        const response = await fetch('./hemtec-products-es.json');
+        // Detectar idioma automáticamente
+        const language = detectLanguage();
+        const texts = getTexts(language);
+        
+        console.log(`Idioma detectado: ${language}`);
+        
+        // Cargar datos del JSON correspondiente
+        const jsonFile = getJsonFileName(language);
+        const response = await fetch(jsonFile);
         const data = await response.json();
         
         // Obtener contenedor de productos
@@ -15,11 +76,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         // Generar tarjetas para cada producto
         data.productos.forEach(producto => {
-            const card = createProductCard(producto);
+            const card = createProductCard(producto, texts);
             container.appendChild(card);
         });
         
-        console.log(`${data.productos.length} productos cargados dinámicamente`);
+        console.log(`${data.productos.length} ${texts.productsLoaded}`);
         
     } catch (error) {
         console.error('Error cargando productos:', error);
@@ -28,7 +89,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 // Función para crear una tarjeta de producto
-function createProductCard(producto) {
+function createProductCard(producto, texts) {
     // Crear columna
     const col = document.createElement('div');
     col.className = 'col-md-4 mb-4';
@@ -72,7 +133,7 @@ function createProductCard(producto) {
     // Año de lanzamiento
     const year = document.createElement('small');
     year.className = 'text-muted d-block mb-2';
-    year.textContent = `Lanzado en ${producto.lanzamiento}`;
+    year.textContent = `${texts.launchedIn} ${producto.lanzamiento}`;
     
     // Botones de acción
     const buttonContainer = document.createElement('div');
@@ -82,7 +143,7 @@ function createProductCard(producto) {
     const mainButton = document.createElement('a');
     mainButton.href = producto.enlaces.url_producto;
     mainButton.className = 'btn btn-sm btn-outline-primary btn-angled-primary-green';
-    mainButton.textContent = 'Ver producto';
+    mainButton.textContent = texts.viewProduct;
     mainButton.target = '_blank';
     mainButton.rel = 'noopener';
     
@@ -91,7 +152,7 @@ function createProductCard(producto) {
         const infoButton = document.createElement('a');
         infoButton.href = producto.enlaces.url_informacion;
         infoButton.className = 'btn btn-sm btn-outline-secondary';
-        infoButton.textContent = 'Más info';
+        infoButton.textContent = texts.moreInfo;
         infoButton.target = '_blank';
         infoButton.rel = 'noopener';
         buttonContainer.appendChild(infoButton);
@@ -102,7 +163,7 @@ function createProductCard(producto) {
         const datasheetButton = document.createElement('a');
         datasheetButton.href = producto.enlaces.url_datasheet;
         datasheetButton.className = 'btn btn-sm btn-outline-info';
-        datasheetButton.textContent = 'Datasheet';
+        datasheetButton.textContent = texts.datasheet;
         datasheetButton.target = '_blank';
         datasheetButton.rel = 'noopener';
         buttonContainer.appendChild(datasheetButton);
@@ -112,7 +173,7 @@ function createProductCard(producto) {
     const contactButton = document.createElement('a');
     contactButton.href = producto.enlaces.url_contacto;
     contactButton.className = 'btn btn-sm btn-outline-success';
-    contactButton.textContent = 'Contactar';
+    contactButton.textContent = texts.contact;
     contactButton.target = '_blank';
     contactButton.rel = 'noopener';
     
@@ -135,13 +196,16 @@ function createProductCard(producto) {
 function showErrorMessage() {
     const container = document.getElementById('productos-container');
     if (container) {
+        const language = detectLanguage();
+        const texts = getTexts(language);
+        
         container.innerHTML = `
             <div class="col-12">
                 <div class="alert alert-warning" role="alert">
-                    <h4 class="alert-heading">Error al cargar productos</h4>
-                    <p>No se pudieron cargar los productos en este momento. Por favor, intenta recargar la página.</p>
+                    <h4 class="alert-heading">${texts.errorTitle}</h4>
+                    <p>${texts.errorMessage}</p>
                     <hr>
-                    <p class="mb-0">Si el problema persiste, contacta al administrador del sitio.</p>
+                    <p class="mb-0">${texts.errorContact}</p>
                 </div>
             </div>
         `;
