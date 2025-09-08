@@ -2,175 +2,99 @@
   "familia": "FFT hemtec",
   "productos": [
     {
-      "nombre": "Single S",
-      "descripcion": "El FFThemtec Single S es un cabezal de rebordeado por rodillos suspendido por resorte. Su diseño modular ofrece una gran variedad de configuraciones.",
+      "nombre": "Single",
+      "descripcion": "El sistema modular FFThemtec Single es una herramienta flexible de dobladillado de rodillos guiada por robot para dobladillos planos, en gota, en cuña y especiales de acero y aluminio, que maneja fácilmente múltiples derivados en una línea de producción.",
       "lanzamiento": 1996,
-      "imagen_url": "FFT_hemtec_Single_S.png",
+      "imagen_url": "single.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/single-s",
-        "url_informacion": "https://example.com/info/single-s",
-        "url_datasheet": "https://example.com/datasheets/single-s.pdf",
-        "url_contacto": "mailto:contacto@example.com"
-      }
-    },
-    {
-      "nombre": "Single F",
-      "descripcion": "El FFThemtec Single F es un cabezal de rebordeado por rodillos rígido. Su diseño modular ofrece una gran variedad de configuraciones.",
-      "lanzamiento": 1996,
-      "imagen_url": "FFT_hemtec_Single_F.png",
-      "enlaces": {
-        "url_producto": "https://example.com/products/single-f",
-        "url_informacion": "https://example.com/info/single-f",
-        "url_datasheet": "https://example.com/datasheets/single-f.pdf",
-        "url_contacto": "mailto:contacto@example.com"
-      }
-    },
-    {
-      "nombre": "Single Y",
-      "descripcion": "El FFThemtec Single Y es un cabezal de rebordeado por rodillos que proporciona acceso optimizado para piezas curvas.",
-      "lanzamiento": 2007,
-      "imagen_url": "FFT_hemtec_Single_Y.png",
-      "enlaces": {
-        "url_producto": "https://example.com/products/single-y",
-        "url_informacion": "https://example.com/info/single-y",
-        "url_datasheet": "https://example.com/datasheets/single-y.pdf",
-        "url_contacto": "mailto:contacto@example.com"
-      }
-    },
-    {
-      "nombre": "Single SA",
-      "descripcion": "El FFThemtec Single SA es una solución de cabezal de rebordeado por rodillos personalizada con diseños individuales según tus requisitos.",
-      "lanzamiento": 1996,
-      "imagen_url": "Single_SA.png",
-      "enlaces": {
-        "url_producto": "https://example.com/products/single-sa",
-        "url_informacion": "https://example.com/info/single-sa",
-        "url_datasheet": "https://example.com/datasheets/single-sa.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/single",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Single/Presentation/FFT-hemtec-Single-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-Single/Technical-Data/Technical-Data-Single-S-ENG.pdf",
+        "url_datasheet2": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Technical-Data/Technical-Data-VersoA4-ENG.pdf",
+        "url_datasheet3": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Technical-Data/Technical-Data-VersoA-ENG.pdf"
       }
     },
     {
       "nombre": "Twinstep",
-      "descripcion": "El FFThemtec Twinstep es una herramienta de rebordeado por rodillos guiada por robot para piezas añadidas. Su cabezal permite dos pasos de rebordeado en un solo movimiento del robot.",
+      "descripcion": "La FFThemtec Twinstep es una herramienta guiada por robot para producir una amplia gama de geometrías de galces para componentes de acero y aluminio.",
       "lanzamiento": 2006,
-      "imagen_url": "Twinstep.png",
+      "imagen_url": "twinstep.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/twinstep",
-        "url_informacion": "https://example.com/info/twinstep",
-        "url_datasheet": "https://example.com/datasheets/twinstep.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/twinstep",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Twinstep/Presentation/FFT-hemtec-Twinstep-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-Twinstep/Technical-Data/Technical-Data-Twinstep-ENG.pdf"
       }
     },
     {
       "nombre": "Verso",
-      "descripcion": "El FFThemtec Verso es un sistema de contrarrodillos que permite tareas de rebordeado sin una cama de rebordeado.",
+      "descripcion": "El cabezal dobladillador de rodillos FFThemtec Verso es una herramienta guiada por robot con hasta cuatro pares de rodillos dobladilladores. Gracias al principio de rodillo contrario, garantiza una fuerza de plegado uniforme.",
       "lanzamiento": 2007,
-      "imagen_url": "Verso.png",
+      "imagen_url": "verso.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/verso",
-        "url_informacion": "https://example.com/info/verso",
-        "url_datasheet": "https://example.com/datasheets/verso.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/verso",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Verso/Presentation/FFT-hemtec-Verso-ENG.pdf"
       }
     },
     {
-      "nombre": "VersoA2",
-      "descripcion": "El FFThemtec VersoA2 es un sistema automático de rebordeado de arcos de rueda con un portaherramientas, un bastidor de rebordeado y un rack de depósito.",
+      "nombre": "VersoA",
+      "descripcion": "El sistema de plegado por rodillo se utiliza en instalaciones de fabricación automatizadas para paneles laterales y pasos de rueda. Consta de un cabezal de plegado por rodillo y un bastidor de plegado especial. Disponible como sistema de uno o dos robots.",
       "lanzamiento": 2006,
-      "imagen_url": "VersoA2.png",
+      "imagen_url": "versoa.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/versoa2",
-        "url_informacion": "https://example.com/info/versoa2",
-        "url_datasheet": "https://example.com/datasheets/versoa2.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/versoa",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Presentation/FFT-hemtec-VersoA2-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoA/Technical-Data/Technical-Data-VersoA2-ENG.pdf"
       }
     },
     {
-      "nombre": "VersoA4",
-      "descripcion": "El FFThemtec VersoA4 es un sistema automático de rebordeado de arcos de rueda que utiliza dos robots, un bastidor de rebordeado y un cabezal de rebordeado por rodillos.",
-      "lanzamiento": 2023,
-      "imagen_url": "VersoA4.png",
-      "enlaces": {
-        "url_producto": "https://example.com/products/versoa4",
-        "url_informacion": "https://example.com/info/versoa4",
-        "url_datasheet": "https://example.com/datasheets/versoa4.pdf",
-        "url_contacto": "mailto:contacto@example.com"
-      }
-    },
-    {
-      "nombre": "VerSoM",
-      "descripcion": "El FFThemtec VerSoM es un sistema manual de rebordeado de arcos de rueda con un cabezal de rebordeado por rodillos, un bastidor de rebordeado y un rack de depósito.",
+      "nombre": "VersoM / ML",
+      "descripcion": "El sistema de engrapado con rodillo VersoM / VersoML de FFThemtec es ideal para la construcción de prototipos y series pequeñas. Se maneja manualmente y cuenta con un cabezal de engrapado de rodillo neumático o de manivela y un bastidor de engrapado.",
       "lanzamiento": 2006,
-      "imagen_url": "FFT_hemtec_VersoM.png",
+      "imagen_url": "versom.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/versom",
-        "url_informacion": "https://example.com/info/versom",
-        "url_datasheet": "https://example.com/datasheets/versom.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/versom",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Presentation/FFT-hemtec-VersoM-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Technical-Data/Technical-Data-VersoM-ENG.pdf"
       }
     },
     {
-      "nombre": "VerSoMP",
-      "descripcion": "El FFThemtec VerSoMP es un sistema de rebordeado para arcos de rueda con un cabezal de rebordeado por rodillos, puesto de operador, un bastidor de rebordeado y un rack de depósito.",
+      "nombre": "VersoMP",
+      "descripcion": "El sistema de engrapado con rodillo VersoMP de FFThemtec permite un desarrollo eficiente de prototipos y la producción de pequeñas series para paneles laterales y pasos de rueda. El cabezal neumático está disponible con manivela y se acciona manualmente.",
       "lanzamiento": 2018,
-      "imagen_url": "FFT_hemtec_VersoMP.png",
+      "imagen_url": "versomp.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/versomp",
-        "url_informacion": "https://example.com/info/versomp",
-        "url_datasheet": "https://example.com/datasheets/versomp.pdf",
-        "url_contacto": "mailto:contacto@example.com"
-      }
-    },
-    {
-      "nombre": "VerSoML",
-      "descripcion": "El FFThemtec VerSoML es un sistema manual de rebordeado de arcos de rueda con una cama de rebordeado de plástico y un cabezal completamente manual. Está especialmente diseñado para prototipado de bajo volumen.",
-      "lanzamiento": 2019,
-      "imagen_url": "FFT_hemtec_VersoML.png",
-      "enlaces": {
-        "url_producto": "https://example.com/products/versoml",
-        "url_informacion": "https://example.com/info/versoml",
-        "url_datasheet": "https://example.com/datasheets/versoml.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/versom",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Presentation/FFT-hemtec-VersoMP-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-VersoM/Technical-Data/Technical-Data-VersoMP-ENG.pdf"
       }
     },
     {
       "nombre": "180°",
-      "descripcion": "El FFThemtec 180° es un sistema automático de contrarrodillos para la creación de un reborde de 180°.",
+      "descripcion": "El cabezal dobladillador de rodillos de 180° FFThemtec es una herramienta guiada por robot con 1-5 rodillos dobladilladores. El cabezal de engrapado de rodillos puede utilizarse guiado por robot o de forma estacionaria.",
       "lanzamiento": 2009,
-      "imagen_url": "180_degree_hemming_machine.png",
+      "imagen_url": "180.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/180",
-        "url_informacion": "https://example.com/info/180",
-        "url_datasheet": "https://example.com/datasheets/180.pdf",
-        "url_video": "https://example.com/videos/180",
-        "url_galeria": "https://example.com/images/180",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/180"
       }
     },
     {
       "nombre": "Roller Cleaner",
-      "descripcion": "El FFThemtec Roller Cleaner permite la limpieza automática de rodillos de plegado sin interrumpir el proceso automático en curso.",
+      "descripcion": "Este sistema de limpieza de rodillos automatiza la limpieza de los rodillos de plegado sin interrumpir el proceso. El rodillo se humedece mínimamente con aceite y un rascador elimina el adhesivo.",
       "lanzamiento": 2009,
-      "imagen_url": "roller_cleaner_machine.png",
+      "imagen_url": "roller-cleaner.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/roller-cleaner",
-        "url_informacion": "https://example.com/info/roller-cleaner",
-        "url_datasheet": "https://example.com/datasheets/roller-cleaner.pdf",
-        "url_video": "https://example.com/videos/roller-cleaner",
-        "url_galeria": "https://example.com/images/roller-cleaner",
-        "url_contacto": "mailto:contacto@example.com"
+        "url_producto": "https://www.fft.de/es/productos/joining-hemming-separating/fft-hemtec/cleaning-unit",
+        "url_informacion": "https://www.fft.de/products/Hemming-Falzen/hemtec-Roller-Cleaner/Presentation/FFT-hemtec-Roller-Cleaner-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Hemming-Falzen/hemtec-Roller-Cleaner/Technical-Data/Technical-Data-Roller-Cleaner-ENG.pdf"
       }
     },
     {
-      "nombre": "HemQC Force",
-      "descripcion": "El FFThemtec HemQC Force es un sistema de monitoreo de fuerza de rebordeado para aseguramiento de la calidad y optimización.",
+      "nombre": "HemQC",
+      "descripcion": "FFTmetrology HemQC comprueba la calidad del molde plegado durante el proceso de dobladillado con rodillo. Se trata de un proceso de escaneado en el que se mide la anchura y la altura del pliegue o el exceso de adhesivo.",
       "lanzamiento": 2025,
-      "imagen_url": "laptop_displaying_HemQC_Force_software.png",
+      "imagen_url": "hemqc.webp",
       "enlaces": {
-        "url_producto": "https://example.com/products/hemqc-force",
-        "url_informacion": "https://example.com/info/hemqc-force",
-        "url_datasheet": "https://example.com/datasheets/hemqc-force.pdf",
-        "url_contacto": "mailto:contacto@example.com"
+        
       }
     }
   ]

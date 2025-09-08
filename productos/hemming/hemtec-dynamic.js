@@ -138,23 +138,37 @@ function createProductCard(producto, texts) {
     // Botones de acción
     const buttonContainer = document.createElement('div');
     buttonContainer.className = 'd-flex flex-wrap gap-2';
+    buttonContainer.style.position = 'relative';
+    buttonContainer.style.zIndex = '10';
     
-    // Botón principal
+    // Botón principal (solo si existe url_producto)
     const mainButton = document.createElement('a');
-    mainButton.href = producto.enlaces.url_producto;
-    mainButton.className = 'btn btn-sm btn-outline-primary btn-angled-primary-green';
-    mainButton.textContent = texts.viewProduct;
-    mainButton.target = '_blank';
-    mainButton.rel = 'noopener';
+    if (producto.enlaces.url_producto) {
+        //const mainButton = document.createElement('a');
+        mainButton.href = producto.enlaces.url_producto;
+        mainButton.className = 'btn btn-sm btn-outline-primary btn-angled-primary-green order-1';
+        mainButton.textContent = texts.viewProduct;
+        mainButton.target = '';
+        mainButton.rel = 'noopener';
+        mainButton.style.pointerEvents = 'auto';
+        mainButton.style.cursor = 'pointer';
+        mainButton.style.position = 'relative';
+        mainButton.style.zIndex = '11';
+        buttonContainer.appendChild(mainButton);
+    }
     
     // Botón de información (si existe)
     if (producto.enlaces.url_informacion) {
         const infoButton = document.createElement('a');
         infoButton.href = producto.enlaces.url_informacion;
-        infoButton.className = 'btn btn-sm btn-outline-secondary';
+        infoButton.className = 'btn btn-sm btn-outline-secondary border-0 order-2';
         infoButton.textContent = texts.moreInfo;
         infoButton.target = '_blank';
         infoButton.rel = 'noopener';
+        infoButton.style.pointerEvents = 'auto';
+        infoButton.style.cursor = 'pointer';
+        infoButton.style.position = 'relative';
+        infoButton.style.zIndex = '11';
         buttonContainer.appendChild(infoButton);
     }
     
@@ -162,27 +176,25 @@ function createProductCard(producto, texts) {
     if (producto.enlaces.url_datasheet) {
         const datasheetButton = document.createElement('a');
         datasheetButton.href = producto.enlaces.url_datasheet;
-        datasheetButton.className = 'btn btn-sm btn-outline-info';
+        datasheetButton.className = 'btn btn-sm btn-outline-info border-0 order-3';
         datasheetButton.textContent = texts.datasheet;
         datasheetButton.target = '_blank';
         datasheetButton.rel = 'noopener';
+        datasheetButton.style.pointerEvents = 'auto';
+        datasheetButton.style.cursor = 'pointer';
+        datasheetButton.style.position = 'relative';
+        datasheetButton.style.zIndex = '11';
         buttonContainer.appendChild(datasheetButton);
     }
     
-    // Botón de contacto
-    const contactButton = document.createElement('a');
-    contactButton.href = producto.enlaces.url_contacto;
-    contactButton.className = 'btn btn-sm btn-outline-success';
-    contactButton.textContent = texts.contact;
-    contactButton.target = '_blank';
-    contactButton.rel = 'noopener';
-    
+    // Ya no se agrega el botón de contacto
+
     // Ensamblar la tarjeta
     cardBody.appendChild(title);
     cardBody.appendChild(year);
     cardBody.appendChild(description);
     buttonContainer.appendChild(mainButton);
-    buttonContainer.appendChild(contactButton);
+    // No se agrega el botón de contacto aquí
     cardBody.appendChild(buttonContainer);
     
     card.appendChild(imageContainer);
