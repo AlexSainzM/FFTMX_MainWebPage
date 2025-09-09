@@ -3,7 +3,7 @@
   "productos": [
     {
       "nombre": "Single",
-      "descripcion": "El sistema modular FFThemtec Single es una herramienta flexible de dobladillado de rodillos guiada por robot para dobladillos planos, en gota, en cuña y especiales de acero y aluminio, que maneja fácilmente múltiples derivados en una línea de producción.",
+      "descripcion": "The modular FFThemtec Single is a flexible, robot-guided roller hemming tool for flat, drop, wedge and special folds made of steel and aluminum, which easily serves multiple derivatives in one production line.",
       "lanzamiento": 1996,
       "imagen_url": "single.webp",
       "enlaces": {
@@ -16,7 +16,7 @@
     },
     {
       "nombre": "Twinstep",
-      "descripcion": "La FFThemtec Twinstep es una herramienta guiada por robot para producir una amplia gama de geometrías de galces para componentes de acero y aluminio.",
+      "descripcion": "The FFThemtec Twinstep is a robot-guided tool for producing a wide variety of hemming geometries for steel and aluminum components. With two hemming rollers running one behind the other, it makes it possible to process several derivatives efficiently.",
       "lanzamiento": 2006,
       "imagen_url": "twinstep.webp",
       "enlaces": {
@@ -27,7 +27,7 @@
     },
     {
       "nombre": "Verso",
-      "descripcion": "El cabezal dobladillador de rodillos FFThemtec Verso es una herramienta guiada por robot con hasta cuatro pares de rodillos dobladilladores. Gracias al principio de rodillo contrario, garantiza una fuerza de plegado uniforme.",
+      "descripcion": "The FFThemtec Verso roller hemming head is a robot-guided tool with up to four pairs of hemming rollers.Ideal for wheel arch and door entry hemming, it ensures uniform hemming force thanks to the counter roller principle. Flexible for various derivatives.",
       "lanzamiento": 2007,
       "imagen_url": "verso.webp",
       "enlaces": {
@@ -37,7 +37,7 @@
     },
     {
       "nombre": "VersoA",
-      "descripcion": "El sistema de plegado por rodillo se utiliza en instalaciones de fabricación automatizadas para paneles laterales y pasos de rueda. Consta de un cabezal de plegado por rodillo y un bastidor de plegado especial. Disponible como sistema de uno o dos robots.",
+      "descripcion": "The roller hemming system is used in automated production systems for side walls and wheel arches. It consists of a roller hemming head and a special hemming frame. Aavailable as a one- or two-robot system.",
       "lanzamiento": 2006,
       "imagen_url": "versoa.webp",
       "enlaces": {
@@ -48,7 +48,7 @@
     },
     {
       "nombre": "VersoM / ML",
-      "descripcion": "El sistema de engrapado con rodillo VersoM / VersoML de FFThemtec es ideal para la construcción de prototipos y series pequeñas. Se maneja manualmente y cuenta con un cabezal de engrapado de rodillo neumático o de manivela y un bastidor de engrapado.",
+      "descripcion": "The FFThemtec VersoM / VersoML Roll Hemming System is ideal for prototyping and small batches. It is manually operated and has a hand-cranked or pneumatic roller hemming head and a special hemming frame.",
       "lanzamiento": 2006,
       "imagen_url": "versom.webp",
       "enlaces": {
@@ -59,7 +59,7 @@
     },
     {
       "nombre": "VersoMP",
-      "descripcion": "El sistema de engrapado con rodillo VersoMP de FFThemtec permite un desarrollo eficiente de prototipos y la producción de pequeñas series para paneles laterales y pasos de rueda. El cabezal neumático está disponible con manivela y se acciona manualmente.",
+      "descripcion": "The FFThemtec VersoMP Roller Hemming System enables efficient prototype development and small batch production for sidewalls and wheel arches. The pneumatic head is also available with a hand crank and is operated manually.",
       "lanzamiento": 2018,
       "imagen_url": "versomp.webp",
       "enlaces": {
@@ -70,7 +70,7 @@
     },
     {
       "nombre": "180°",
-      "descripcion": "El cabezal dobladillador de rodillos de 180° FFThemtec es una herramienta guiada por robot con 1-5 rodillos dobladilladores. El cabezal de engrapado de rodillos puede utilizarse guiado por robot o de forma estacionaria.",
+      "descripcion": "The roller hemming head FFThemtec 180° is a versatile, robot-guided tool with 1-5 hemming rollers. It is used for sunroof hemming, pre-hemming processes and hemming without backing. This hemming head can be used robot-guided or stationary.",
       "lanzamiento": 2009,
       "imagen_url": "180.webp",
       "enlaces": {
@@ -79,7 +79,7 @@
     },
     {
       "nombre": "Roller Cleaner",
-      "descripcion": "Este sistema de limpieza de rodillos automatiza la limpieza de los rodillos de plegado sin interrumpir el proceso. El rodillo se humedece mínimamente con aceite y un rascador elimina el adhesivo.",
+      "descripcion": "The Roller Cleaner automates the cleaning of hemming rolls without interrupting the process. A robot positions the hemming roller in front of the drive element. The roller is minimally wetted with oil, and a scraper removes the sticking glue.",
       "lanzamiento": 2009,
       "imagen_url": "roller-cleaner.webp",
       "enlaces": {
@@ -90,7 +90,7 @@
     },
     {
       "nombre": "HemQC",
-      "descripcion": "FFTmetrology HemQC comprueba la calidad del molde plegado durante el proceso de dobladillado con rodillo. Se trata de un proceso de escaneado en el que se mide la anchura y la altura del pliegue o el exceso de adhesivo.",
+      "descripcion": "FFTmetrology HemQC inspects the quality of the folded edge during the roll folding process. This is a scanning procedure in which the width and height of the fold or the excess adhesive is measured.",
       "lanzamiento": 2025,
       "imagen_url": "hemqc.webp",
       "enlaces": {

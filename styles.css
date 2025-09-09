@@ -21,9 +21,14 @@ body {
   background-color: var(--fft-gray-light);
 }
 
-h1, h2, h3, .section-title {
+h1 {
   font-family: 'Oswald', Arial, sans-serif;
-  /* color: var(--fft-green); */
+  color: var(--fft-green);
+}
+
+h2, h3, .section-title {
+  font-family: 'Oswald', Arial, sans-serif;
+  color: var(--fft-gray);
 }
 
 .navbar-brand span {
