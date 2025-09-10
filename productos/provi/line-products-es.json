@@ -1,0 +1,225 @@
+{
+  "familia": "FFT provi",
+  "productos": [
+    {
+      "nombre": "Part Drawer",
+      "descripcion": "Solución simple para integrar piezas en un proceso de producción. También puede utilizarse para eyección e inspección.",
+      "lanzamiento": 2006,
+      "imagen_url": "Part_Drawer.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Turntable A",
+      "descripcion": "Magazine desacoplado capaz de solicitar piezas en ciertos ciclos de producción. Tras el giro, se descarga por robot directa o indirectamente mediante un almacenamiento intermedio.",
+      "lanzamiento": 2008,
+      "imagen_url": "Turntable_A.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Turntable M",
+      "descripcion": "Magazine desacoplado que solicita piezas en ciclos definidos. La protección de intervención se garantiza mediante un panel de vallado de seguridad desplazable.",
+      "lanzamiento": 2008,
+      "imagen_url": "Turntable_M.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Tower",
+      "descripcion": "Solución automatizada para desacoplar el tiempo de ciclo mediante la entrada y salida de piezas grandes en líneas con contenedores apilados.",
+      "lanzamiento": 2013,
+      "imagen_url": "Rack_Tower.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Shelf",
+      "descripcion": "Solución automatizada para desacoplar el tiempo de ciclo mediante la entrada y salida de piezas grandes en líneas con contenedores dispuestos en paralelo.",
+      "lanzamiento": 2008,
+      "imagen_url": "Rack_Shelf.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Station",
+      "descripcion": "Estación automatizada para desacoplar el tiempo de ciclo mediante la entrada y salida de piezas grandes en líneas con contenedores.",
+      "lanzamiento": 2016,
+      "imagen_url": "Rack_Station.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Changer",
+      "descripcion": "Solución automatizada para desacoplar el tiempo de ciclo con contenedores. El nivel inferior dispone de posición de carga/descarga (transferencia AGV).",
+      "lanzamiento": 2025,
+      "imagen_url": "Rack_Changer.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Changer T",
+      "descripcion": "Solución automatizada para entrada/salida de grandes piezas en contenedores. Tras el cambio, la mesa gira automáticamente 180°.",
+      "lanzamiento": 2013,
+      "imagen_url": "Rack_Changer_T.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Feeder RS",
+      "descripcion": "Alimentador de piezas pequeñas por gravedad basado en el contorno exterior. Alta capacidad de buffer en poco espacio para largos tiempos de desacoplo.",
+      "lanzamiento": 2008,
+      "imagen_url": "FFTprovi_Part_Feeder_RS.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Feeder B",
+      "descripcion": "Alimentador de piezas pequeñas dentro de un contenedor. Los contenedores vacíos se retiran automáticamente hacia el operario.",
+      "lanzamiento": 2014,
+      "imagen_url": "FFTprovi_Part_Feeder_B.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Feeder V",
+      "descripcion": "Alimentador para una gran cantidad de piezas pequeñas. Gracias al buffer vertical, requiere un espacio reducido.",
+      "lanzamiento": 2024,
+      "imagen_url": "FFTprovi_Part_Feeder_V.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor F",
+      "descripcion": "Transportador de acumulación para alimentar piezas y desacoplar/almacenar en búfer distintas áreas del sistema, aumentando la disponibilidad.",
+      "lanzamiento": 2001,
+      "imagen_url": "FFTprovi_Accumulating_Conveyor_F.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor V",
+      "descripcion": "Transportador de acumulación para alimentar piezas y desacoplar/almacenar en búfer distintas áreas del sistema, aumentando la disponibilidad.",
+      "lanzamiento": 2012,
+      "imagen_url": "FFTprovi_Accumulating_Conveyor_V.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor S",
+      "descripcion": "Transportador de acumulación para alimentar piezas y desacoplar/almacenar en búfer distintas áreas del sistema, aumentando la disponibilidad.",
+      "lanzamiento": 2001,
+      "imagen_url": "FFTprovi_Accumulating_Conveyor_S.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor F (New Generation)",
+      "descripcion": "Nueva generación del transportador de acumulación F para alimentar piezas y desacoplar áreas del sistema, incrementando la disponibilidad.",
+      "lanzamiento": 2025,
+      "imagen_url": "New_Generation_Accumulating_Conveyor_F.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Shuttle AT",
+      "descripcion": "Transporte muy rápido de una pieza de una estación a otra y conexión de distintas áreas de la planta. Área de transporte arriba.",
+      "lanzamiento": 2020,
+      "imagen_url": "FFTprovi_Shuttle_AT.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Shuttle BT",
+      "descripcion": "Transporte muy rápido de una pieza de una estación a otra y conexión de distintas áreas de la planta. Área de transporte abajo.",
+      "lanzamiento": 2020,
+      "imagen_url": "FFTprovi_Shuttle_BT.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Trolley R",
+      "descripcion": "Solución desacoplada para alimentación de piezas al proceso. También para desvío o pruebas. Al retirarlo, el área de seguridad se cierra por la ventana del robot.",
+      "lanzamiento": 2005,
+      "imagen_url": "FFTprovi_Part_Trolley_R.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Trolley S",
+      "descripcion": "Solución desacoplada para alimentación de piezas. También para desvío o pruebas. Al retirarlo, el área de seguridad se cierra automáticamente con una puerta tipo saloon.",
+      "lanzamiento": 2008,
+      "imagen_url": "FFTprovi_Part_Trolley_S.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Trolley L",
+      "descripcion": "Solución desacoplada para alimentación de piezas. También para desvío o pruebas. Al retirarlo, el área de seguridad se cierra mediante una barrera de luz.",
+      "lanzamiento": 2008,
+      "imagen_url": "FFTprovi_Part_Trolley_L.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

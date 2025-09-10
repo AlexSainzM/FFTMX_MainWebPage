@@ -1,0 +1,49 @@
+{
+  "familia": "FFT lightweight",
+  "productos": [
+    {
+      "nombre": "Carbon Gripper",
+      "descripcion": "The FFT lightweight Carbon Gripper is 40% lighter than conventional gripping systems and combines a modular ultra-lightweight design with a monolithic customized frame structure for the highest geometrical requirements.",
+      "lanzamiento": 2014,
+      "imagen_url": "Carbon_Gripper.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "FibreTEC 3D",
+      "descripcion": "The FFT lightweight FibreTEC 3D is our approach for cost-efficient modular lightweight components.",
+      "lanzamiento": 2022,
+      "imagen_url": "FibreTEC_3D_component.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "FibreTEC Profile",
+      "descripcion": "The FFT lightweight FibreTEC Profile is a lighter alternative to aluminum profiles and is available in lengths up to 6 m.",
+      "lanzamiento": 2024,
+      "imagen_url": "FibreTEC_Profile_components.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "FibreTEC Connectors",
+      "descripcion": "The FFT lightweight FibreTEC Connectors ensure maximum simplicity for assembling our profiles.",
+      "lanzamiento": 2024,
+      "imagen_url": "FibreTEC_Connectors.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

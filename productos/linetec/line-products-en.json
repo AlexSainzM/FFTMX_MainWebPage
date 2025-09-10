@@ -1,0 +1,60 @@
+{
+  "family": "FFT linetec",
+  "products": [
+    {
+      "name": "HRC-Station",
+      "description": "The FFT linetec HRC-Station provides open access, high safety through sensors and a modular table structure. The goal is synergistic collaboration between humans and robots to improve ergonomics and efficiency.",
+      "launch_year": 2021,
+      "image_url": "HRC-Station_image.png",
+      "links": {
+        "product_url": "https://fftsystems.de/linetec/hrc-station",
+        "info_url": "",
+        "datasheet_url": ""
+      }
+    },
+    {
+      "name": "RSS-Station",
+      "description": "The FFT linetec RSS-Station consists of two 6-axis robots for strapping and a flexible arrangement for different packages. It monitors the process with sensor technology and enables automated tensioning and closing of strapping.",
+      "launch_year": 2023,
+      "image_url": "RSS-Station_image.png",
+      "links": {
+        "product_url": "https://fftsystems.de/linetec/rss-station",
+        "info_url": "",
+        "datasheet_url": ""
+      }
+    },
+    {
+      "name": "Protection Cabin EcoLine",
+      "description": "The FFT linetec Protection Cabin EcoLine is characterized by a cost-efficient modular design and easy installation. It can be used as an inert gas welding, temperature, sound insulation or adhesive application cabin up to sizes of 5.5×5.5×4 m.",
+      "launch_year": 2023,
+      "image_url": "Protection_Cabin_EcoLine_3D_rendering.png",
+      "links": {
+        "product_url": "https://fftsystems.de/linetec/protection-cabin-ecoline",
+        "info_url": "",
+        "datasheet_url": ""
+      }
+    },
+    {
+      "name": "Protection Cabin ProLine",
+      "description": "The FFT linetec Protection Cabin ProLine is based on a cost-efficient design suitable for large dimensions and extended customer-specific layout options. It can be used as an inert gas welding, temperature, sound insulation or adhesive application cabin.",
+      "launch_year": 2022,
+      "image_url": "Protection_Cabin_ProLine_3D_rendering.png",
+      "links": {
+        "product_url": "https://fftsystems.de/linetec/protection-cabin-proline",
+        "info_url": "",
+        "datasheet_url": ""
+      }
+    },
+    {
+      "name": "RTU 7th Axis",
+      "description": "The FFT linetec RTU 7th Axis is a linear extension for industrial robots such as ABB, KUKA and Fanuc. The first 7th Axis in Europe is used in the FibreTEC3D production line in Mücke.",
+      "launch_year": 2023,
+      "image_url": "RTU_7th_Axis_robot_track.png",
+      "links": {
+        "product_url": "https://fftsystems.de/linetec/rtu-7th-axis",
+        "info_url": "",
+        "datasheet_url": ""
+      }
+    }
+  ]
+}

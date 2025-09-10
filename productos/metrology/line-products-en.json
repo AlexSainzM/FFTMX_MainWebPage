@@ -1,0 +1,247 @@
+{
+  "familia": "FFT metrology",
+  "productos": [
+    {
+      "nombre": "VarioGauge DH",
+      "descripcion": "Dual-head sensor designed to look deeper into the groove and achieve much more stable measurement on radiused edges.",
+      "lanzamiento": 2019,
+      "imagen_url": "FFT_VarioGauge_DH_sensor.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioGauge VG6 2D",
+      "descripcion": "Standard 2D solution for borehole measurement (camera with ring light). High durability and optical resolution of 0.05 mm/pixel.",
+      "lanzamiento": 2016,
+      "imagen_url": "FFT_VarioGauge_VG6_2D_sensor.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioGauge VG6 2.5D",
+      "descripcion": "Standard 2.5D triangulation sensor for edge detection and gap & flush measurement (like the DH). High durability and 0.05 mm/pixel.",
+      "lanzamiento": 2016,
+      "imagen_url": "FFT_VarioGauge_VG6_2.5D_sensor.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioGauge VG7 2.5D",
+      "descripcion": "New generation FFT triangulation sensor replacing the VG6 2.5D; more compact housing and better resolution.",
+      "lanzamiento": 2025,
+      "imagen_url": "VarioGauge_VG7_2.5D_sensor.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioGauge Hub",
+      "descripcion": "Industrial hub for continuous use in robot gripper. Allows connecting multiple sensors (even of different types) with high availability.",
+      "lanzamiento": 2016,
+      "imagen_url": "VarioGauge_Hub.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Blue",
+      "descripcion": "Blue laser scanner (405 nm) with very compact size and high scanning rate for various applications; ideal when space is limited.",
+      "lanzamiento": 2015,
+      "imagen_url": "FFT_Blue_laser_scanner.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioGauge Camera Panel",
+      "descripcion": "Camera with lighting panel for 2D applications. Standard solution for TPC and RGS.",
+      "lanzamiento": 2012,
+      "imagen_url": "VarioGauge_Camera_Panel.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioIC",
+      "descripcion": "Microcontroller (µC) based solution for various applications; eliminates the need for PC. Usable in RGS (robot guiding system).",
+      "lanzamiento": 2023,
+      "imagen_url": "VarioIC.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Pipeline Inspection Gauge (PIG)",
+      "descripcion": "Solution for detecting small leaks in pipelines; available in various diameters and with TÜV requirements compliance.",
+      "lanzamiento": 1995,
+      "imagen_url": "Pipeline_Inspection_Gauge_(PIG).png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "AI Panel",
+      "descripcion": "Device with controller, camera, lighting and Nvidia Jetson (CUDA/GPU). For AI Check, AI Ident and AI Pick. No PC required.",
+      "lanzamiento": 2018,
+      "imagen_url": "AI_Panel.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "AI Ident",
+      "descripcion": "Identifies components and verifies presence/position according to defined characteristics, using AI routines for a stable system.",
+      "lanzamiento": 2023,
+      "imagen_url": "laptop_screen.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "AI Check",
+      "descripcion": "Verifies if parts are present and geometrically correct, using AI algorithms.",
+      "lanzamiento": 2023,
+      "imagen_url": "metal_parts_check.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "AI Pick",
+      "descripcion": "Identifies parts and sends their position and rotation to a robot for picking, based on artificial intelligence.",
+      "lanzamiento": 2021,
+      "imagen_url": "metal_parts_pick.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Shapescan",
+      "descripcion": "Basic FFT scanning solution: the sensor is guided over the component or the robot guides the component under the fixed sensor. Examples: BeadControl, HemQC.",
+      "lanzamiento": 2010,
+      "imagen_url": "Shapescan_laptop.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "BeadControl",
+      "descripcion": "3D scanning of adhesive bead to detect position, width and height during the process, without losing cycle time.",
+      "lanzamiento": 2015,
+      "imagen_url": "BeadControl_laptop.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "HemQC",
+      "descripcion": "Controls hemming quality during the rolling process by measuring fold width and height; can measure adhesive exudation.",
+      "lanzamiento": 2010,
+      "imagen_url": "HemQC_device.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "BestFit",
+      "descripcion": "Calculates the ideal mounting position of a component relative to its opening considering tolerances; compensates for mechanical fitting behavior.",
+      "lanzamiento": 2004,
+      "imagen_url": "BestFit.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "iPS",
+      "descripcion": "System that determines body deviations in a single station for subsequent optimization, assuming stable positioning at each station.",
+      "lanzamiento": 2021,
+      "imagen_url": "iPS.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "RGS",
+      "descripcion": "Guides the robot to an ideal calculated position (instead of taught) from 2D/2.5D images (hole positions, edges).",
+      "lanzamiento": 2019,
+      "imagen_url": "RGS.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VisionView",
+      "descripcion": "Fast and accurate optical quality control of large components in automated processes; high speed and flexibility for different variants.",
+      "lanzamiento": 2017,
+      "imagen_url": "VisionView_laptop.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VisionCheckup",
+      "descripcion": "Checks presence of components and features in 2D/2.5D; detects failures in early stages of the process.",
+      "lanzamiento": 2006,
+      "imagen_url": "VisionCheckup_laptop.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Gap & Flush",
+      "descripcion": "Automatic robot-based solution for stable gap and flush measurement; ideal with the FFT DH sensor.",
+      "lanzamiento": 2001,
+      "imagen_url": "Gap_&_Flush_measurement.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

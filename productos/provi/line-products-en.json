@@ -1,0 +1,225 @@
+{
+  "familia": "FFT provi",
+  "productos": [
+    {
+      "nombre": "Part Drawer",
+      "descripcion": "Simple solution to integrate parts into a production process. It can also be used for ejection and inspection.",
+      "lanzamiento": 2006,
+      "imagen_url": "Part_Drawer.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Turntable A",
+      "descripcion": "Decoupled magazine able to request parts in defined production cycles. After rotation, it is unloaded by a robot either directly or indirectly via an intermediate buffer.",
+      "lanzamiento": 2008,
+      "imagen_url": "Turntable_A.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Turntable M",
+      "descripcion": "Decoupled magazine that requests parts in defined cycles. Intervention protection is ensured by a traveling safety fence panel.",
+      "lanzamiento": 2008,
+      "imagen_url": "Turntable_M.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Tower",
+      "descripcion": "Automated solution to decouple cycle time by infeed and outfeed of large parts in production lines with stacked containers.",
+      "lanzamiento": 2013,
+      "imagen_url": "Rack_Tower.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Shelf",
+      "descripcion": "Automated solution to decouple cycle time by infeed and outfeed of large parts in production lines with containers arranged side-by-side.",
+      "lanzamiento": 2008,
+      "imagen_url": "Rack_Shelf.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Station",
+      "descripcion": "Automated station to decouple cycle time by infeed and outfeed of large parts in production lines with containers.",
+      "lanzamiento": 2016,
+      "imagen_url": "Rack_Station.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Changer",
+      "descripcion": "Automated solution to decouple cycle time with containers. The lower level has a loading/unloading position (AGV transfer position).",
+      "lanzamiento": 2025,
+      "imagen_url": "Rack_Changer.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Rack Changer T",
+      "descripcion": "Automated solution for infeed/outfeed of large parts in containers. After the changeover, the turntable automatically rotates 180°.",
+      "lanzamiento": 2013,
+      "imagen_url": "Rack_Changer_T.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Feeder RS",
+      "descripcion": "Simple gravity-based feeding of small parts based on their outer contour. High buffer capacity in a small footprint enables long decoupling time.",
+      "lanzamiento": 2008,
+      "imagen_url": "FFTprovi_Part_Feeder_RS.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Feeder B",
+      "descripcion": "Simple solution for feeding small parts into the production process within a container. Empty containers are automatically returned to the operator.",
+      "lanzamiento": 2014,
+      "imagen_url": "FFTprovi_Part_Feeder_B.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Feeder V",
+      "descripcion": "Simple solution for feeding a large amount of small parts into the production process. Thanks to the vertical part buffer, a limited space is required.",
+      "lanzamiento": 2024,
+      "imagen_url": "FFTprovi_Part_Feeder_V.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor F",
+      "descripcion": "Used to feed parts into processing lines and to decouple/buffer different system areas, significantly increasing system availability.",
+      "lanzamiento": 2001,
+      "imagen_url": "FFTprovi_Accumulating_Conveyor_F.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor V",
+      "descripcion": "Used to feed parts into processing lines and to decouple/buffer different system areas, significantly increasing system availability.",
+      "lanzamiento": 2012,
+      "imagen_url": "FFTprovi_Accumulating_Conveyor_V.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor S",
+      "descripcion": "Used to feed parts into processing lines and to decouple/buffer different system areas, significantly increasing system availability.",
+      "lanzamiento": 2001,
+      "imagen_url": "FFTprovi_Accumulating_Conveyor_S.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Accumulating Conveyor F (New Generation)",
+      "descripcion": "New generation of the F accumulating conveyor for feeding parts and decoupling system areas, increasing availability.",
+      "lanzamiento": 2025,
+      "imagen_url": "New_Generation_Accumulating_Conveyor_F.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Shuttle AT",
+      "descripcion": "Very fast transport of one part from one station to another and linking different plant areas. Transport area above.",
+      "lanzamiento": 2020,
+      "imagen_url": "FFTprovi_Shuttle_AT.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Shuttle BT",
+      "descripcion": "Very fast transport of one part from one station to another and linking different plant areas. Transport area below.",
+      "lanzamiento": 2020,
+      "imagen_url": "FFTprovi_Shuttle_BT.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Trolley R",
+      "descripcion": "Decoupled solution for feeding parts into the process. Also for diverting or testing. When removed, the safety area is closed because of the robot window.",
+      "lanzamiento": 2005,
+      "imagen_url": "FFTprovi_Part_Trolley_R.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Trolley S",
+      "descripcion": "Decoupled solution for feeding parts into the process. Also for diverting or testing. When removed, the safety area is closed automatically by a saloon door.",
+      "lanzamiento": 2008,
+      "imagen_url": "FFTprovi_Part_Trolley_S.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Part Trolley L",
+      "descripcion": "Decoupled solution for feeding parts into the process. Also for diverting or testing. When removed, the safety area is closed by a light barrier.",
+      "lanzamiento": 2008,
+      "imagen_url": "FFTprovi_Part_Trolley_L.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

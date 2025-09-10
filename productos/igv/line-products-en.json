@@ -1,0 +1,60 @@
+{
+  "familia": "FFT igv",
+  "productos": [
+    {
+      "nombre": "Agility 3t",
+      "descripcion": "The FFT igv Agility 3t is an omnidirectional automated guided vehicle (AGV) with a payload of up to 3 tons.",
+      "lanzamiento": 2023,
+      "imagen_url": "Agility_3t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Agility 10t",
+      "descripcion": "The FFT igv Agility 10t is an omnidirectional AGV with a payload of up to 10 tons. Market launch planned for 2025 (in development).",
+      "lanzamiento": 2025,
+      "imagen_url": "Agility_10t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Elevate 1t",
+      "descripcion": "The FFT igv Elevate 1t is a bidirectional AGV with an integrated scissor lift table and a payload of up to 1 ton.",
+      "lanzamiento": 2022,
+      "imagen_url": "Elevate_1t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "MOVY 1t",
+      "descripcion": "The FFT igv MOVY 1t is a bidirectional AGV with a payload of up to 1 ton and the new platform for the next AGV family. Market launch planned for 2025 (in development).",
+      "lanzamiento": 2025,
+      "imagen_url": "MOVY_1t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "MOVY 2t",
+      "descripcion": "The FFT igv MOVY 2t is a bidirectional AGV with a payload of up to 2 tons and the new platform for the next AGV family. Market launch planned for 2026 (in development).",
+      "lanzamiento": 2026,
+      "imagen_url": "MOVY_2t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

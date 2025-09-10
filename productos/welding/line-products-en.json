@@ -1,0 +1,137 @@
+{
+  "familia": "FFT weldtec",
+  "productos": [
+    {
+      "nombre": "Basic C-Gun",
+      "descripcion": "The FFT weldtec Basic C-Gun is a robot welding gun for steel welding with C-frame and a max. welding force of 6.000N.",
+      "lanzamiento": 2021,
+      "imagen_url": "FFT_weldtec_Basic_C-Gun.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#basic",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Basic X-Gun",
+      "descripcion": "The FFT weldtec Basic X-Gun is a robot welding gun for steel welding with X-frame and scissor-like electrode arms. The max. welding force is 5.000N.",
+      "lanzamiento": 2021,
+      "imagen_url": "FFT_weldtec_Basic_X-Gun.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#basic",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Basic XL-Gun",
+      "descripcion": "The FFT weldtec Basic XL-Gun is a robot welding gun for steel welding with X-frame that has an extra-large welding window. Its max. welding force is 8.000N.",
+      "lanzamiento": 2021,
+      "imagen_url": "FFT_weldtec_Basic_XL-Gun.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#basic",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Advanced C-Gun",
+      "descripcion": "The FFT weldtec Advanced C-Gun is a robot-welding-gun-series for aluminum welding, designed not only for the automotive industry.",
+      "lanzamiento": 2024,
+      "imagen_url": "Advanced_C-Gun.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#advanced",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "TipChanger",
+      "descripcion": "The FFT weldtec TipChanger enables time-optimized and automatic changing of electrode caps on robot-guided welding guns.",
+      "lanzamiento": 2003,
+      "imagen_url": "TipChanger.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#tipchanger",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Mobile TipChanger",
+      "descripcion": "The FFT weldtec Mobile TipChanger enables time-optimized and automatic changing of electrode caps on stationary welding guns.",
+      "lanzamiento": 2003,
+      "imagen_url": "Mobile_TipChanger.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#mobiletipchanger",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "VarioPicker EVO & Service Station",
+      "descripcion": "The FFT weldtec VarioPicker EVO provides geometric fold fixing for hemmed flange fixation in an automated, robot-guided joining process.",
+      "lanzamiento": 2008,
+      "imagen_url": "VarioPicker_EVO.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#variopicker",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Engineering Service",
+      "descripcion": "FFT provides Engineering Service for design and development of WPS gun base bodies and special welding machines, 3D construction, FEM calculation, measurement and test protocols, and customer system data handling.",
+      "lanzamiento": 2013,
+      "imagen_url": "man_at_desk_with_monitors.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#engineering",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Test Station",
+      "descripcion": "The FFT weldtec Test Station offers servopneumatic and servomotoric robot weld gun testing.",
+      "lanzamiento": 2023,
+      "imagen_url": "Test_Station.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#teststation",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Measuring Station",
+      "descripcion": "The FFT weldtec Measuring Station offers servopneumatic and servomotoric robot weld gun measuring.",
+      "lanzamiento": 2023,
+      "imagen_url": "Measuring_Station.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#measuringstation",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Inline PWM",
+      "descripcion": "The FFT weldtec Inline Projection Welding Machine (PWM) is a compact and smart solution to weld nuts and bolts inside a production line.",
+      "lanzamiento": 2013,
+      "imagen_url": "Inline_PWM.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#inline",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Offline PWM",
+      "descripcion": "The FFT weldtec Offline Projection Welding Machine (PWM) is a compact and smart solution to weld nuts and bolts outside the production line in a manual process.",
+      "lanzamiento": 2013,
+      "imagen_url": "Offline_PWM.png",
+      "enlaces": {
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#offline",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

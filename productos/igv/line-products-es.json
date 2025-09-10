@@ -1,0 +1,60 @@
+{
+  "familia": "FFT igv",
+  "productos": [
+    {
+      "nombre": "Agility 3t",
+      "descripcion": "El FFT igv Agility 3t es un vehículo guiado automáticamente (AGV) omnidireccional con una capacidad de carga de hasta 3 toneladas.",
+      "lanzamiento": 2023,
+      "imagen_url": "Agility_3t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Agility 10t",
+      "descripcion": "El FFT igv Agility 10t es un AGV omnidireccional con una capacidad de carga de hasta 10 toneladas.",
+      "lanzamiento": 2025,
+      "imagen_url": "Agility_10t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Elevate 1t",
+      "descripcion": "El FFT igv Elevate 1t es un AGV bidireccional con mesa elevadora de tijera integrada y una capacidad de carga de hasta 1 tonelada.",
+      "lanzamiento": 2022,
+      "imagen_url": "Elevate_1t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "MOVY 1t",
+      "descripcion": "El FFT igv MOVY 1t es un AGV bidireccional con una capacidad de carga de hasta 1 tonelada y la nueva plataforma para la nueva familia de AGV.",
+      "lanzamiento": 2025,
+      "imagen_url": "MOVY_1t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "MOVY 2t",
+      "descripcion": "El FFT igv MOVY 2t es un AGV bidireccional con una capacidad de carga de hasta 2 toneladas y la nueva plataforma para la nueva familia de AGV.",
+      "lanzamiento": 2026,
+      "imagen_url": "MOVY_2t.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

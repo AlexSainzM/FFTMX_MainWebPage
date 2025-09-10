@@ -1,0 +1,60 @@
+{
+  "familia": "FFT lasertec",
+  "productos": [
+    {
+      "nombre": "Laser Protection Cabin EcoLine",
+      "descripcion": "Cost-efficient modular laser protection cabin for easy installation and applications, available in sizes up to 5.5x5.5x4m.",
+      "lanzamiento": 2023,
+      "imagen_url": "Laser_Protection_Cabin_EcoLine.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Laser Protection Cabin ProLine",
+      "descripcion": "Laser protection cabin with cost-efficient design, suitable for large dimensions and customer-specific layouts.",
+      "lanzamiento": 2022,
+      "imagen_url": "Laser_Protection_Cabin_ProLine.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Laser Protection Cabin HighLine",
+      "descripcion": "Laser protection cabin designed for highly automated systems and complex industrial applications, customized design and dimensions.",
+      "lanzamiento": 2008,
+      "imagen_url": "Laser_Protection_Cabin_HighLine.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "DistanceCheck",
+      "descripcion": "System to verify the correct distance of a laser cleaning system from the part.",
+      "lanzamiento": 2023,
+      "imagen_url": "DistanceCheck.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "RPD 2D",
+      "descripcion": "Compact laser remote scanner with a working field of Ø164 mm and a focal distance of 480 mm. Compatible with multiple laser sources and executes welding programs directly via integrated control.",
+      "lanzamiento": 2024,
+      "imagen_url": "RPD_2D.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

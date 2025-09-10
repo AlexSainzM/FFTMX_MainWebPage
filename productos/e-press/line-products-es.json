@@ -1,0 +1,38 @@
+{
+  "familia": "Epress",
+  "productos": [
+    {
+      "nombre": "SPR",
+      "descripcion": "Epress SPR (Self-Piercing Rivet) es un remache autoperforante para unir chapas metálicas —especialmente aluminio— sin pretaladrado. De uso común en aplicaciones automotrices.",
+      "lanzamiento": null,
+      "imagen_url": "SPR_robotic_arm_system.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "FDS",
+      "descripcion": "Epress FDS (Flow Drill Screw) es un tornillo autoperforante que crea su propio orificio mediante fricción y presión. Ideal para materiales ligeros en aplicaciones automotrices.",
+      "lanzamiento": null,
+      "imagen_url": "FDS_robotic_arm_system.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Clinching",
+      "descripcion": "Epress Clinch es un proceso de unión mecánica que forma un enclavamiento entre chapas metálicas sin usar elementos de fijación ni calor. Ampliamente utilizado en ensamblajes de materiales ligeros.",
+      "lanzamiento": null,
+      "imagen_url": "Clinching_robotic_arm_system.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

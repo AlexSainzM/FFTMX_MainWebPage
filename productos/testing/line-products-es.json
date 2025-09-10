@@ -1,0 +1,27 @@
+{
+  "familia": "FFT testing",
+  "productos": [
+    {
+      "nombre": "MFCC",
+      "descripcion": "La cámara climática multifuncional (Multi-Functional Climatic Chamber) es modular, con caudal de aire, temperatura y humedad ajustables. Utiliza refrigerantes naturales para una refrigeración más ecológica y es personalizable.",
+      "lanzamiento": 2022,
+      "imagen_url": "MFCC.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "S3",
+      "descripcion": "Sistema de medición flexible, inalámbrico y escalable con diseño modular. Registra presión, humedad, temperatura y más. Ideal para aplicaciones móviles en zonas de difícil acceso y entornos exigentes.",
+      "lanzamiento": 2024,
+      "imagen_url": "S3.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

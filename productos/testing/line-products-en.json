@@ -1,0 +1,27 @@
+{
+  "familia": "FFT testing",
+  "productos": [
+    {
+      "nombre": "MFCC",
+      "descripcion": "The Multi-Functional Climatic Chamber is modular with adjustable airflow, temperature, and humidity. It uses natural refrigerants for environmentally friendly cooling and is customizable.",
+      "lanzamiento": 2022,
+      "imagen_url": "MFCC.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "S3",
+      "descripcion": "A flexible, wireless, and scalable measuring system with a modular design. It records pressure, humidity, temperature, and more. Ideal for mobile applications in hard-to-reach areas and harsh environments.",
+      "lanzamiento": 2024,
+      "imagen_url": "S3.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

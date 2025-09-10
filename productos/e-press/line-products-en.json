@@ -1,0 +1,38 @@
+{
+  "familia": "Epress",
+  "productos": [
+    {
+      "nombre": "SPR",
+      "descripcion": "Epress SPR (Self-Piercing Rivet) is a fastener used to join metal sheets—especially aluminum—without pre-drilling. Commonly used in automotive applications.",
+      "lanzamiento": null,
+      "imagen_url": "SPR_robotic_arm_system.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "FDS",
+      "descripcion": "Epress FDS (Flow Drill Screw) is a self-piercing screw that creates its own hole through friction and pressure. Ideal for lightweight materials in automotive applications.",
+      "lanzamiento": null,
+      "imagen_url": "FDS_robotic_arm_system.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Clinching",
+      "descripcion": "Epress Clinch is a mechanical joining process that forms an interlock between metal sheets without using fasteners or heat. Widely used for lightweight material assembly in the automotive industry.",
+      "lanzamiento": null,
+      "imagen_url": "Clinching_robotic_arm_system.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}

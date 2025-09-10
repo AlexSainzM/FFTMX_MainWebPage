@@ -1,0 +1,60 @@
+{
+  "familia": "FFT lasertec",
+  "productos": [
+    {
+      "nombre": "Laser Protection Cabin EcoLine",
+      "descripcion": "Cabina de protección láser modular y rentable, fácil de instalar y disponible en tamaños de hasta 5.5x5.5x4m.",
+      "lanzamiento": 2023,
+      "imagen_url": "Laser_Protection_Cabin_EcoLine.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Laser Protection Cabin ProLine",
+      "descripcion": "Cabina de protección láser con diseño rentable, adecuada para grandes dimensiones y opciones de distribución específicas para el cliente.",
+      "lanzamiento": 2022,
+      "imagen_url": "Laser_Protection_Cabin_ProLine.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "Laser Protection Cabin HighLine",
+      "descripcion": "Cabina de protección láser diseñada para sistemas altamente automatizados y aplicaciones industriales complejas, con diseños y dimensiones personalizadas.",
+      "lanzamiento": 2008,
+      "imagen_url": "Laser_Protection_Cabin_HighLine.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "DistanceCheck",
+      "descripcion": "Sistema que verifica la distancia correcta de un sistema de limpieza láser respecto a la pieza.",
+      "lanzamiento": 2023,
+      "imagen_url": "DistanceCheck.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    },
+    {
+      "nombre": "RPD 2D",
+      "descripcion": "Escáner remoto láser compacto con un campo de trabajo de Ø164 mm y una distancia focal de 480 mm. Compatible con múltiples fuentes láser y ejecuta programas de soldadura directamente mediante control integrado.",
+      "lanzamiento": 2024,
+      "imagen_url": "RPD_2D.png",
+      "enlaces": {
+        "url_producto": "",
+        "url_informacion": "",
+        "url_datasheet": ""
+      }
+    }
+  ]
+}
