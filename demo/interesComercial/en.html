@@ -10,7 +10,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FFT México</title>
+    <title>FFT Mexico</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -36,11 +36,11 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="https://fft-mx.com">Volver a FFT México</a>
+                  <a class="nav-link" href="https://fft-mx.com">Back to FFT Mexico</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="en.html">English</a>
-                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Español</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -51,81 +51,81 @@
     <!-- Form Section -->
     <section id="_form" class="container py-5">
 
-      <!-- Actualización de Datos del Personal -->
+      <!-- Personal Data Update -->
       <div class="row mb-5">
 
         <div class="col-12">
 
           <form action="https://formspree.io/f/xwplqlgk" method="POST" class="container p-4 shadow rounded bg-light">
-            <h1 class="text-center mb-4">Queremos conocerte</h1>
+            <h1 class="text-center mb-4">We want to get to know you</h1>
             <p class="text-muted text-justify">
-              Gracias por tu interés en los productos y servicios de FFT México. Por favor, completa este breve formulario para que podamos brindarte información más detallada sobre las soluciones que te interesan.
+              Thank you for your interest in FFT Mexico's products and services. Please fill out this brief form so we can provide you with more detailed information about the solutions you are interested in.
             </p>
             <div class="text-danger mb-3">
-              <small>Los campos marcados con * son obligatorios</small>
+              <small>Fields marked with * are required</small>
             </div>
           
-            <!-- Nombre completo -->
+            <!-- Full Name -->
             <div class="mb-4">
-              <label for="nombreCompleto" class="form-label fw-bold">Nombre completo <span class="text-danger">*</span></label>
+              <label for="nombreCompleto" class="form-label fw-bold">Full Name <span class="text-danger">*</span></label>
               <input type="text" 
                      id="nombreCompleto" 
                      name="nombreCompleto"
                      class="form-control"
-                     placeholder="Ingresa tu nombre completo"
+                     placeholder="Enter your full name"
                      required
                      oninput="this.value = this.value.toUpperCase();">
             </div>
 
-            <!-- Empresa -->
+            <!-- Company -->
             <div class="mb-4">
-              <label for="empresa" class="form-label fw-bold">Empresa o Institución</label>
+              <label for="empresa" class="form-label fw-bold">Company or Institution</label>
               <input type="text" 
                      id="empresa" 
                      name="empresa"
                      class="form-control"
-                     placeholder="Nombre de tu empresa o institución"
+                     placeholder="Your company or institution name"
                      oninput="this.value = this.value.toUpperCase();">
             </div>
 
-            <!-- Puesto -->
+            <!-- Position -->
             <div class="mb-4">
-              <label for="puesto" class="form-label fw-bold">Puesto o Cargo</label>
+              <label for="puesto" class="form-label fw-bold">Position or Title</label>
               <input type="text" 
                      id="puesto" 
                      name="puesto"
                      class="form-control"
-                     placeholder="Tu puesto o cargo actual"
+                     placeholder="Your current position or title"
                      oninput="this.value = this.value.toUpperCase();">
             </div>
 
-            <!-- Correo electrónico -->
+            <!-- Email -->
             <div class="mb-4">
-              <label for="email" class="form-label fw-bold">Correo electrónico <span class="text-danger">*</span></label>
+              <label for="email" class="form-label fw-bold">Email <span class="text-danger">*</span></label>
               <input type="email" 
                      id="email" 
                      name="email"
                      class="form-control"
-                     placeholder="ejemplo@empresa.com"
+                     placeholder="example@company.com"
                      required>
             </div>
 
-            <!-- Teléfono -->
+            <!-- Phone -->
             <div class="mb-4">
-              <label for="telefono" class="form-label fw-bold">Teléfono</label>
+              <label for="telefono" class="form-label fw-bold">Phone</label>
               <input type="tel" 
                      id="telefono" 
                      name="telefono"
                      class="form-control"
-                     placeholder="Número de contacto">
+                     placeholder="Contact number">
               <div class="form-text">
-                <i class="bi bi-info-circle"></i> Campo opcional. Nos ayudará a brindarte una atención más personalizada.
+                <i class="bi bi-info-circle"></i> Optional field. It will help us provide you with more personalized attention.
               </div>
             </div>
 
-            <!-- Productos de interés -->
+            <!-- Products of Interest -->
             <div class="mb-4">
-              <label class="form-label fw-bold">¿En qué productos o servicios estás interesado? <span class="text-danger">*</span></label>
+              <label class="form-label fw-bold">Which products or services are you interested in? <span class="text-danger">*</span></label>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" name="intereses" id="gluing" value="Gluing">
                 <label class="form-check-label" for="gluing">Gluing Equipment</label>
@@ -156,23 +156,23 @@
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" name="intereses" id="Otros" value="Otros">
-                <label class="form-check-label" for="Otros">Otros</label>
+                <label class="form-check-label" for="Otros">Other</label>
               </div>
             </div>
 
-            <!-- Comentarios -->
+            <!-- Comments -->
             <div class="mb-4">
-              <label for="comentarios" class="form-label fw-bold">Comentarios adicionales</label>
+              <label for="comentarios" class="form-label fw-bold">Additional comments</label>
               <textarea class="form-control" 
                         id="comentarios" 
                         name="comentarios" 
                         rows="3" 
-                        placeholder="¿Hay algo más que quieras comentarnos?"></textarea>
+                        placeholder="Is there anything else you would like to tell us?"></textarea>
             </div>
           
-            <!-- Botón de Envío -->
+            <!-- Submit Button -->
             <div class="d-grid">
-              <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+              <button type="submit" class="btn btn-primary">Submit Form</button>
             </div>
           </form>
           
@@ -188,7 +188,7 @@
 
     <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">
-      <p>&copy; 2025 FFT México. Todos los derechos reservados.</p>
+      <p>&copy; 2025 FFT Mexico. All rights reserved.</p>
     </footer>
 
     <!-- Bootstrap JS -->
@@ -197,7 +197,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
     <script>
-      //Código
+      //Code
       function toggleForm(radio) {
         const form = document.querySelector('form');
         const inputs = form.querySelectorAll('input:not([name="frecuenciaUso"]), select, textarea');
