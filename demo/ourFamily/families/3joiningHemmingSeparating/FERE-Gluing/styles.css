@@ -1,0 +1,158 @@
+/* Tipografía */
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1080px;
+  }
+  
+  /* Colores oficiales de FFT */
+  :root {
+    --fft-primaryGreen: #009d80; 
+    --fft-secondaryGreen: #006b57;
+    --fft-primaryGray: #575756;
+    --fft-secondaryGray1: #F0F0F0;
+    --fft-secondaryGray2: #D0D0D0;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+
+  #aplicaciones_section{
+    background-image: url(../../../../../assets/img/fft_wallpapers/Bild_2.jpg);
+    opacity: 95%;
+  }
+
+  #compatibilidad_section{
+    background-color: var(--fft-secondaryGray2);
+  }
+
+  #especificaciones_section {
+    background-image: url(../../../../../assets/img/fft_wallpapers/Bild_2.jpg);
+    opacity: 95%;
+  }
+
+  #contacto_section {
+    background-image: url(../../../../../assets/img/fft_wallpapers/Bild_2.jpg);
+    opacity: 95%;
+  }
+
+  /* Agregar al archivo styles.css o en la sección <style> del head */
+  .campaign-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 90%;
+  }
+
+  .campaign-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .campaign-card .btn {
+    opacity: 0.9;
+    transition: opacity 0.2s;
+    background-color: var(--fft-primaryGray);
+    border-color: var(--fft-primaryGray);
+  }
+
+  .campaign-card:hover .btn {
+    opacity: 1;
+    background-color: var(--fft-primaryGreen);
+    border-color: var(--fft-primaryGreen);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Botones */
+  .btn-primary {
+    background-color: #009D80;
+    border-color: #009D80;
+  }
+
+  .btn-primary:hover {
+    background-color: #006b57;
+    border-color: #006b57;
+  }
+
+  .btn-pulse {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* Aplica el color verde a los enlaces dentro de listas específicas */
+  .list-unstyled a {
+    color: var(--black); /* Usa la variable definida */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+  }
+
+  /* Opcional: agrega un efecto hover */
+  .list-unstyled a:hover {
+    color: darkgreen; /* Ajusta si necesitas un efecto hover */
+    text-decoration: underline; /* Opcional: subrayado en hover */
+  }
+  
+ 
+
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .navbar, footer {
+    background-color: #575756; /* Gris FFT */
+    color: white;
+  }
+  
+
+  
+  .btn-secondary {
+    background-color: #D0D0D0;
+    border-color: #D0D0D0;
+  }
+
+  .btn-secondary:hover {
+    background-color: #575756;
+    border-color: #575756;
+  }
+
+  /* Estilo para el enlace activo en el navbar */
+  .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: normal;
+  }
+
+  .a-breadcrumb-item {
+    font-size: small;
+    color: #009D80;
+  }
+  
+

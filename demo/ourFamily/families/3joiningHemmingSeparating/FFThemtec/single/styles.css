@@ -1,0 +1,163 @@
+/* Tipografía */
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+    /* font-family: 'Arial', sans-serif; */
+  }
+  
+  .container {
+    max-width: 1080px;
+  }
+  
+
+  
+ 
+
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .navbar, footer {
+    background-color: #575756; /* Gris FFT */
+    color: white;
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: #009D80;
+    border-color: #009D80;
+  }
+
+  .btn-primary:hover {
+    background-color: #006b57;
+    border-color: #006b57;
+  }
+  
+  .btn-secondary {
+    background-color: #D0D0D0;
+    border-color: #D0D0D0;
+  }
+
+  .btn-secondary:hover {
+    background-color: #575756;
+    border-color: #575756;
+  }
+
+  /* Estilo para el enlace activo en el navbar */
+  .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: normal;
+  }
+
+  .a-breadcrumb-item {
+    font-size: small;
+    color: #009D80;
+  }
+  
+
+  @media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+
+
+
+  /* Para pantallas grandes */
+  @media (min-width: 768px) {
+  .custom-img {
+    max-height: 80vh; /* Aplica max-height solo en pantallas grandes - Main Banner picture*/
+    }
+  } 
+
+  /* Ajuste del logo en pantallas xxl */
+  @media (min-width:1650px) {
+    .linelogo-img{
+      min-width: 55vh;
+    }
+  }
+
+  .featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+  .featurette-title {
+    /* margin-top: 1rem; */
+    opacity: 90%;
+    font-size: xx-large;
+  }
+
+  .featurette-title2 {
+    margin-top: 1rem;
+    opacity: 90%;
+    font-size: x-large;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* campaign-timer */
+.campaign-timer{
+  background: rgba(50,55,63,.00);
+  max-width: 555px;
+  margin: 5px auto;
+  padding:5px 0 5px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 20px rgba(34,31,31,.2); */
+}
+.camp {
+  display: block;
+  font-size: 14px;
+  color: #000000;
+  font-weight:600;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 0;
+  opacity: 80%;
+}
+.time-after{
+  position:relative;
+}
+.time-after:after{
+  position:absolute;
+  content:':';
+  top:4px;
+  right:-8px;
+}
+.time {
+  display: inline-block;
+  line-height: 1;
+  padding: 5px 8px 0;
+  font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  opacity: 50%;
+}/* campaign-timer */
+
+@media (max-width: 600px) {
+  .time {
+    padding: 5px 5px 0;
+    font-size: 18px;
+  }
+
+  .camp {
+    font-size: 12px;
+  }
+  
+}
+
+@media (min-width: 2600px) {
+  .time {
+    padding: 5px 5px 0;
+    font-size: 50px;
+  }
+
+  .camp {
+    font-size: 30px;
+  }
+  
+}

@@ -7,7 +7,7 @@
       "lanzamiento": 2021,
       "imagen_url": "FFT_weldtec_Basic_C-Gun.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#basic",
+        "url_producto": "https://www.fft.de/en/products/basic",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -18,7 +18,7 @@
       "lanzamiento": 2021,
       "imagen_url": "FFT_weldtec_Basic_X-Gun.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#basic",
+        "url_producto": "https://www.fft.de/en/products/basic",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -27,9 +27,9 @@
       "nombre": "Basic XL-Gun",
       "descripcion": "La FFT weldtec Basic XL-Gun es una pistola de soldadura robótica para soldadura de acero con bastidor en X y una ventana de soldadura extragrande. Su fuerza de soldadura máxima es de 8.000 N.",
       "lanzamiento": 2021,
-      "imagen_url": "FFT_weldtec_Basic_X-Gun.png",
+      "imagen_url": "FFT_weldtec_Basic_XL-Gun.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#basic",
+        "url_producto": "https://www.fft.de/en/products/basic",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -40,9 +40,9 @@
       "lanzamiento": 2024,
       "imagen_url": "Advanced_C-Gun.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#advanced",
-        "url_informacion": "",
-        "url_datasheet": ""
+        "url_producto": "https://www.fft.de/en/products/advanced-c-gun",
+        "url_informacion": "https://www.fft.de/products/Welding-Schwei%C3%9Fen/weldtec-Advanced-C-Gun/Presentation/FFT-weldtec-Advanced-C-Gun-ENG.pdf",
+        "url_datasheet": "https://www.fft.de/products/Welding-Schwei%C3%9Fen/weldtec-Advanced-C-Gun/Technical-Data/Technical-Data-Advanced-C-Gun-ENG.pdf"
       }
     },
     {
@@ -51,8 +51,8 @@
       "lanzamiento": 2003,
       "imagen_url": "TipChanger.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#tipchanger",
-        "url_informacion": "",
+        "url_producto": "https://www.fft.de/en/products/tipchanger",
+        "url_informacion": "https://www.fft.de/products/Welding-Schwei%C3%9Fen/weldtec-TipChanger/Presentation/FFT-weldtec-TipChanger-ENG.pdf",
         "url_datasheet": ""
       }
     },
@@ -62,8 +62,8 @@
       "lanzamiento": 2003,
       "imagen_url": "Mobile_TipChanger.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#mobiletipchanger",
-        "url_informacion": "",
+        "url_producto": "https://www.fft.de/en/products/mobile-tipchanger",
+        "url_informacion": "https://www.fft.de/products/Welding-Schwei%C3%9Fen/weldtec-Mobile-TipChanger/Presentation/FFT-weldtec-Mobile-TipChanger-ENG.pdf",
         "url_datasheet": ""
       }
     },
@@ -73,7 +73,7 @@
       "lanzamiento": 2008,
       "imagen_url": "VarioPicker_EVO.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#variopicker",
+        "url_producto": "https://www.fft.de/en/products/variopicker-evo",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -84,8 +84,8 @@
       "lanzamiento": 2013,
       "imagen_url": "man_at_desk_with_monitors.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#engineering",
-        "url_informacion": "",
+        "url_producto": "https://www.fft.de/en/products/engineering-service",
+        "url_informacion": "https://www.fft.de/products/Welding-Schwei%C3%9Fen/weldtec-Engineering-Service/Presentation/FFT-weldtec-Engineering-Service-ENG.pdf",
         "url_datasheet": ""
       }
     },
@@ -95,7 +95,7 @@
       "lanzamiento": 2023,
       "imagen_url": "Test_Station.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#teststation",
+        "url_producto": "https://www.fft.de/en/products/test-station",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -106,7 +106,7 @@
       "lanzamiento": 2023,
       "imagen_url": "Measuring_Station.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#measuringstation",
+        "url_producto": "https://www.fft.de/en/products/measuring-station",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -117,7 +117,7 @@
       "lanzamiento": 2013,
       "imagen_url": "Inline_PWM.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#inline",
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine",
         "url_informacion": "",
         "url_datasheet": ""
       }
@@ -128,7 +128,7 @@
       "lanzamiento": 2013,
       "imagen_url": "Offline_PWM.png",
       "enlaces": {
-        "url_producto": "https://www.fft.de/en/products/projection-welding-machine#offline",
+        "url_producto": "https://www.fft.de/en/products/projection-welding-machine",
         "url_informacion": "",
         "url_datasheet": ""
       }
